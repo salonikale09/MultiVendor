@@ -1,0 +1,152 @@
+<isdecorate template="common/layout/page">
+
+    <isif condition="${pdict.reportingURLs && pdict.reportingURLs.length}">
+        <isinclude template="reporting/reportingUrls" />
+    </isif>
+    <isscript>
+        var assets = require('*/cartridge/scripts/assets.js');
+        assets.addCss('/css/account/dashboard.css');
+        assets.addCss('/css/customAccountDashboard.css')
+        assets.addJs('/js/catalogUploading.js')
+    </isscript>
+    <div class="hero slant-down account-image">
+        <h1 class="page-title">${Resource.msg('page.heading.dashboard', 'account', null)}</h1>
+    </div> 
+    <br>
+    <div class="container">
+        <div class="p-2">
+            <table class="table table-striped border">
+                <tbody>
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.ID', 'vendorForm', null)}</th>
+                        <td scope="col">${customer.profile.customerNo}</td>
+                    </tr>
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.Name', 'vendorForm', null)}</th>
+                        <td scope="col">${customer.profile.firstName}&nbsp;${customer.profile.lastName}</td>
+                    </tr>
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.email', 'vendorForm', null)}</th>
+                        <td scope="col">${customer.profile.email}</td>
+                    </tr>
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.Phone', 'vendorForm', null)}</th>
+                        <td scope="col">${pdict.account.profile.phone}</td>
+                    </tr>
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.Designation', 'vendorForm', null)}</th>
+                        <td scope="col">${pdict.account.profile.vendorDesignation}</td>
+                    </tr>
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.Address', 'vendorForm', null)}</th>
+                        <td scope="col">${pdict.account.profile.vendorAddress}</td>
+                    </tr>
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.CompanyName', 'vendorForm', null)}</th>
+                        <td scope="col">${pdict.account.profile.vendorCompanyName}</td>
+                    </tr>
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.Worth', 'vendorForm', null)}</th>
+                        <td scope="col">${pdict.account.profile.vendorCompanyStatus}</td>
+                    </tr>
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.Country', 'vendorForm', null)}</th>
+                        <td scope="col">${pdict.account.profile.vendorCountry}</td>
+                    </tr>
+
+                    <isif condition="${pdict.account.profile.gstNumber}">
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.GST', 'vendorForm', null)}</th>
+                        <td scope="col">${pdict.account.profile.gstNumber}</td>
+                    </tr>
+                    <iselse/>    
+                    </isif>
+                 
+                    <isif condition="${pdict.account.profile.panNumber}">
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.PAN', 'vendorForm', null)}</th>
+                        <td scope="col">${pdict.account.profile.panNumber}</td>
+                    </tr>
+                    <iselse/>
+                    </isif>
+                   
+                   <isif condition="${pdict.account.profile.pinCode}">
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.PIN', 'vendorForm', null)}</th>
+                        <td scope="col">${pdict.account.profile.pinCode}</td>
+                    </tr>
+                   <iselse/>      
+                   </isif>
+
+                    <isif condition="${pdict.account.profile.ssnNumber}">
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.SSN', 'vendorForm', null)}</th>
+                        <th scope="col">${pdict.account.profile.ssnNumber}</th>
+                    </tr>
+                    <iselse/>
+                    </isif>
+                    
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.Catalog', 'vendorForm', null)}</th>
+                        <td scope="col">${pdict.account.profile.vendorProductCategory}</td>
+                    </tr>
+                    <!-- 
+                    <tr>
+                        <th scope="col">PassWord</th>
+                        <th scope="col">${pdict.account.profile.password} <a href="${URLUtils.url('Account-EditPassword')}" class="pull-right" aria-label="${Resource.msg('label.profile.changepassword', 'account', null)}">${Resource.msg('link.edit', 'account', null)}</a> </th>
+                    </tr> -->
+
+                    <tr>
+                        <th scope="col">${Resource.msg('label.status', 'vendorForm', null)}</th>
+                        <th>
+                            <isif condition="${pdict.check}">
+                                <button type="Danger" class="btn btn-success" disabled>${Resource.msg('vendor.Approved', 'vendorForm', null)}</button>
+                            <iselse/>
+                                <button type="Danger" class="btn btn-danger" disabled>${Resource.msg('vendor.Pending', 'vendorForm', null)}</button>
+                            </isif>
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="row">
+                <div class="col-sm-6 col-12">
+                    <isif condition="${!pdict.account.isExternallyAuthenticated}">
+                        <!---Password--->
+                        <isinclude template="account/passwordCard" />
+                    </isif>
+                </div>
+                <isif condition="${pdict.check}">
+                    <div class="col-sm-6">
+                        <div class="card custom-profile-style-change">
+                            <div class="card-header clearfix custom-head">
+                                <h2 class="pull-left custom-name-size">${Resource.msg('label.upload', 'vendorForm', null)}
+                                </h2>
+                            </div>
+                            <div class="card-body">
+                                <dl>
+                                    <dd>
+                                        <h6>${Resource.msg('file.upload.enable', 'vendorForm', null)}</h6>
+                                    </dd>
+                                    <dd>
+                                        <form action="" enctype="multipart/form-data" method="POST" >
+                                            <input type="hidden" id="catalogUrl" 
+                                                value="${URLUtils.url('CatalogFile-Upload')}">
+                                            <input type="file" id="files" name="file" multiple/>
+                                            <button type="button" id="fileUploadBtn"
+                                                class="btn btn-primary btn-position">${Resource.msg('label.submit', 'vendorForm', null)}</button>
+                                        </form>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                <iselse/>
+                    <div class="container">
+                        <h6>${Resource.msg('file.upload.pending.message', 'vendorForm', null)}</h6>
+                    </div>
+                </isif>
+            </div>
+        </div>
+    </div>
+
+</isdecorate>

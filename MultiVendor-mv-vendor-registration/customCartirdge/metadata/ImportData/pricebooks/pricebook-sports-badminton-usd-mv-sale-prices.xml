@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pricebooks xmlns="http://www.demandware.com/xml/impex/pricebook/2006-10-31">
+	<pricebook>
+		<header pricebook-id="usd-mv-sports-badminton-sale-prices">
+			<currency>USD</currency>
+			<display-name xml:lang="x-default">Sale Prices</display-name>
+			<online-flag>true</online-flag>
+			<parent>usd-mv-sports-badminton-list-prices</parent>
+		</header>
+		<!-- Sports Cricket mv pricebook -->
+		<price-tables>
+			<price-table product-id="sports-Badminton-001">
+                <amount quantity="1">129.00</amount>
+            </price-table>
+            <price-table product-id="sports-Badminton-002">
+                <amount quantity="1">129.00</amount>
+            </price-table>
+            <price-table product-id="sports-Badminton-003">
+                <amount quantity="1">129.00</amount>
+            </price-table>
+            <price-table product-id="sports-Badminton-004">
+                <amount quantity="1">129.00</amount>
+            </price-table>
+            <price-table product-id="sports-Badminton-005">
+                <amount quantity="1">129.00</amount>
+            </price-table>
+		</price-tables>
+	</pricebook>
+</pricebooks>

@@ -1,0 +1,33 @@
+{
+    "step-types": {
+      "script-module-step": [
+        {
+          "@type-id": "custom.webDAVmultiVendor",
+          "@supports-parallel-execution": "true",
+          "@supports-site-context": "true",
+          "@supports-organization-context": "false",
+          "description": "My custom script step type for sending mails",
+          "module": "vendor_registration/cartridge/scripts/job/webdavscript.js",
+          "function": "webdavupload",
+          "transactional": "true",
+          "timeout-in-seconds": "900",
+  
+          "status-codes": {
+            "status": [{
+                "@code": "ERROR",
+                "description": "Used when the step failed with an error."
+              },
+              {
+                "@code": "FINISHED",
+                "description": "Used when the step finished successfully."
+              },
+              {
+                "@code": "FINISHED_WITH_WARNINGS",
+                "description": "Used when the step finished with warnings."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }

@@ -1,0 +1,17 @@
+.custom-profile-style-change {
+  border: 2px solid #4d1768;
+}
+
+.custom-head {
+  border-bottom: 2px solid #4d1768;
+  font-size: larger;
+}
+
+.custom-name-siz {
+  font-weight: bold;
+  font-family: serif !important;
+}
+
+.btn-position {
+  margin-top: 1%;
+}/*# sourceMappingURL=customAccountDashboard.css.map */

@@ -1,0 +1,137 @@
+<isdecorate template="application/MenuFrame">
+    <isinclude template="common/header" sf-toolkit="on" />
+    <div class="container-fuild">
+        <div class="d-flex justify-content-between">
+            <h1 style="margin-left:41%">${Resource.msg('vendor.details.heading', 'vendorDetails', null)}</h1>
+        </div>
+        <div class="p-2">
+            <table class="table table-striped border">
+                <tbody>
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.details.vendor.name', 'vendorDetails', null)}</th>
+                        <td scope="col">${pdict.vendorDetails.name}</td>
+                    </tr>
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.details.vendor.email', 'vendorDetails', null)}</th>
+                        <td scope="col">${pdict.vendorDetails.email}</td>
+                    </tr>
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.details.vendor.phone', 'vendorDetails', null)}</th>
+                        <td scope="col">${pdict.vendorDetails.phone}</td>
+                    </tr>
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.details.vendor.designation', 'vendorDetails', null)}</th>
+                        <td scope="col">${pdict.vendorDetails.designation}</td>
+                    </tr>
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.details.vendor.address', 'vendorDetails', null)}</th>
+                        <td scope="col">${pdict.vendorDetails.address}</td>
+                    </tr>
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.details.vendor.company.name', 'vendorDetails', null)}
+                        </th>
+                        <td scope="col">${pdict.vendorDetails.companyName}</td>
+                    </tr>
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.details.vendor.company.worth', 'vendorDetails', null)}
+                        </th>
+                        <td scope="col">${pdict.vendorDetails.companyStatus}</td>
+                    </tr>
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.details.vendor.country', 'vendorDetails', null)}</th>
+                        <td scope="col">${pdict.vendorDetails.country}</td>
+                    </tr>
+                    
+                    <isif condition="${pdict.vendorDetails.gstNumber}">
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.details.vendor.gst.no', 'vendorDetails', null)}</th>
+                        <td scope="col">${pdict.vendorDetails.gstNumber}</td>
+                    </tr>
+                    <iselse/>     
+                    </isif>
+
+                    <isif condition="${pdict.vendorDetails.panNumber}">
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.details.vendor.pan.no', 'vendorDetails', null)}</th>
+                        <td scope="col">${pdict.vendorDetails.panNumber}</td>
+                    </tr>
+                    <iselse/>     
+                    </isif>
+                   
+                    <isif condition="${pdict.vendorDetails.pinCode}">
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.details.vendor.pin.code', 'vendorDetails', null)}</th>
+                        <td scope="col">${pdict.vendorDetails.pinCode}</td>
+                    </tr>
+                    <iselse/>     
+                    </isif>
+                    
+                    <isif condition="${pdict.vendorDetails.ssnNumber}">
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.details.vendor.pin.code', 'vendorDetails', null)}</th>
+                        <td scope="col">${pdict.vendorDetails.ssnNumber}</td>
+                    </tr>
+                    <iselse/>     
+                    </isif>
+
+                    <tr>
+                        <th scope="col">${Resource.msg('vendor.details.vendor.catalog', 'vendorDetails', null)}</th>
+                        <td scope="col">${pdict.vendorDetails.catalog}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="p-2">
+            <div>
+                <h1>${Resource.msg('vendor.details.approval.setting', 'vendorDetails', null)}</h1>
+                <p>${Resource.msg('vendor.details.current.status', 'vendorDetails', null)}</p>
+                <isif condition="${pdict.vendorDetails.status === null}">
+                    <button class="btn btn-info" style="height:50px"
+                        type="button">${Resource.msg('vendor.details.type.pending.vendor', 'vendorDetails', null)}</button>
+                <iselse/>
+                    <isif condition="${pdict.vendorDetails.status}">
+                        <button class="btn btn-success" style="height:50px"
+                            type="button">${Resource.msg('vendor.details.type.approve', 'vendorDetails', null)}</button>
+                    <iselse/>
+                        <button class="btn btn-danger" style="height:50px"
+                            type="button">${Resource.msg('vendor.details.type.not.approve', 'vendorDetails', null)}</button>
+                    </isif>
+                </isif>
+                <p>${Resource.msg('vendor.details.change.option.message', 'vendorDetails', null)}</p>
+                <div>
+                    <isif condition="${pdict.vendorDetails.status === null}">
+                        <a href="${URLUtils.url('Vendor-ApprovalStatus', 'catId', pdict.vendorDetails.catalog, 'id', pdict.vendorDetails.id, 'type',
+                                 'approve', 'page', 'vendorDetails')}" style="text-decoration:none">
+                            <button class="btn btn-secondary" style="height:50px"
+                                type="button">${Resource.msg('vendor.details.type.approve', 'vendorDetails', null)}</button>
+                        </a>
+                        <a href="${URLUtils.url('Vendor-ApprovalStatus', 'catId', pdict.vendorDetails.catalog, 'id', pdict.vendorDetails.id, 'type',
+                                 'notApprove', 'page', 'vendorDetails')}">
+                            <button class="btn btn-secondary" style="height:50px; margin-left:20px;"
+                                type="button">${Resource.msg('vendor.details.type.not.approve', 'vendorDetails', null)}</button>
+                        </a>
+                    <iselse/>
+                        <isif condition="${pdict.vendorDetails.status}">
+                            <button class="btn btn-secondary" style="height:50px" type="button"
+                                disabled>${Resource.msg('vendor.details.type.approve', 'vendorDetails', null)}</button>
+                            <a href="${URLUtils.url('Vendor-ApprovalStatus', 'catId', pdict.vendorDetails.catalog, 'id', pdict.vendorDetails.id, 'type',
+                                     'notApprove', 'page', 'vendorDetails')}">
+                                <button class="btn btn-secondary" style="height:50px; margin-left:20px;"
+                                    type="button">${Resource.msg('vendor.details.type.not.approve', 'vendorDetails', null)}</button>
+                            </a>
+                        <iselse/>
+                            <a href="${URLUtils.url('Vendor-ApprovalStatus', 'catId', pdict.vendorDetails.catalog, 'id', pdict.vendorDetails.id, 'type',
+                                     'approve', 'page', 'vendorDetails')}" style="text-decoration:none">
+                                <button class="btn btn-secondary" style="height:50px"
+                                    type="button">${Resource.msg('vendor.details.type.approve', 'vendorDetails', null)}</button>
+                            </a>
+                            <button class="btn btn-secondary" style="height:50px; margin-left:20px;" type="button"
+                                disabled>${Resource.msg('vendor.details.type.not.approve', 'vendorDetails', null)}</button>
+                        </isif>
+                    </isif>
+                </div>
+            </div>
+        </div>
+    </div>
+    <isinclude template="common/footer" sf-toolkit="on" />
+</isdecorate>

@@ -1,0 +1,21 @@
+<extensions xmlns="http://www.demandware.com/xml/bmmodules/2007-12-11"
+xmlns:xsi ="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.demandware.com/xml/bmmodules/2007-12-11 bmext.xsd">
+
+
+  <menuitem id="custom-menu" position="2600" site="true">
+    <name xml:lang="x-default">Vendor</name>
+    <short_description xml:lang="x-default">Vendor</short_description>
+    <description xml:lang="x-default">List of Vendors who wants to use our website and using our website</description>
+    <icon></icon>
+  </menuitem>
+  <menuaction id="custom-menu-item3" menupath="custom-menu" position="4" site="true">
+    <name xml:lang="x-default">Vendor Invoice</name>
+    <short_description xml:lang="x-default">All Vendor Invoice</short_description>
+    <description xml:lang="x-default">All Vendor Invoice</description>
+    <exec pipeline="CommissionCalculation" node="getCommissionPage" />
+    <sub-pipelines>
+      <pipeline name="CommissionCalculation"/>
+    </sub-pipelines>
+    <icon></icon>
+  </menuaction>
+</extensions>

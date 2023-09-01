@@ -1,0 +1,23 @@
+<isdecorate template="common/layout/page">
+<div class="container">
+    <h2>Generate invoice for selected vendor</h2>
+    <div class="row">
+    <div class="col-12">
+    <div>
+        <iscomment> <isloop items="${pdict.result}" var="result">
+
+        <div>${result.manufacturer}</div>
+        <div>${result.total}</div>
+        <div>${result.commision}</div>
+        </isloop> </iscomment>
+
+         <form class="vendorcommision" method="GET">
+         <input type="text" name="commision" value="">
+        <button type="submit" >submit</button>
+    </form>
+      </div>
+    </div>
+</div>
+
+
+</isdecorate>

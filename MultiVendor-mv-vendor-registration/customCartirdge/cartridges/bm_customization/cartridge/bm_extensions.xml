@@ -1,0 +1,36 @@
+<extensions xmlns="http://www.demandware.com/xml/bmmodules/2007-12-11"
+xmlns:xsi ="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.demandware.com/xml/bmmodules/2007-12-11 bmext.xsd">
+
+
+  <menuitem id="custom-menu" position="2600" site="true">
+    <name xml:lang="x-default">Vendor</name>
+    <short_description xml:lang="x-default">Vendor</short_description>
+    <description xml:lang="x-default">List of Vendors who wants to use our website and using our website</description>
+    <icon></icon>
+  </menuitem>
+
+  <menuaction id="custom-menu-item1" menupath="custom-menu" position="3" site="true">
+    <name xml:lang="x-default">Vendor List</name>
+    <short_description xml:lang="x-default">All Registered Vendor</short_description>
+    <description xml:lang="x-default">List of vendors which are using and request of vendors who are not using and want to use our platform</description>
+    <exec pipeline="Vendor" node="Show" />
+    <sub-pipelines>
+      <pipeline name="Vendor"/>
+    </sub-pipelines>
+    <icon></icon>
+  </menuaction>
+
+  <menuaction id="custom-menu-item2" menupath="custom-menu" position="2" site="true">
+    <name xml:lang="x-default">Product Data </name>
+    <short_description xml:lang="x-default">All xml file and product data</short_description>
+    <description xml:lang="x-default">catalog xml, inventory xml, pricebook xml and images of product and all catalog details.</description>
+    <exec pipeline="ProductData" node="Show" />
+    <sub-pipelines>
+      <pipeline name="Vendor"/>
+      <pipeline name="ProductData"/>
+      <pipeline name="UploadWebDav"/>
+    </sub-pipelines>
+    <icon></icon>
+  </menuaction>
+
+</extensions>

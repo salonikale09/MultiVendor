@@ -1,0 +1,22 @@
+<isdecorate template="application/MenuFrame">
+    <div>
+        <isinclude template="common/header" sf-toolkit="on" />
+
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <h1 class="pt-2 pb-2">${Resource.msg('vendor.list.heading', 'vendorList', null)}</h1>
+                <select class="form-control" id='selectID' style="height:45px; width:200px">
+                    <option value="all">${Resource.msg('vendor.list.type.all.vendor', 'vendorList', null)}</option>
+                    <option value="approve">${Resource.msg('vendor.list.type.approve.vendor', 'vendorList', null)}
+                    </option>
+                    <option value="not-approve">${Resource.msg('vendor.list.type.not.approve.vendor', 'vendorList', null)}</option>
+                    <option value="pending">${Resource.msg('vendor.list.type.pending.vendor', 'vendorList', null)}
+                    </option>
+                </select>
+            </div>
+            <input type="hidden" id="listUrl" value="${URLUtils.url('Vendor-List')}">
+            <isinclude template="vendor/vendorTable" sf-toolkit="on" />
+        </div>
+        <isinclude template="common/footer" sf-toolkit="on" /> 
+    </div>
+</isdecorate>

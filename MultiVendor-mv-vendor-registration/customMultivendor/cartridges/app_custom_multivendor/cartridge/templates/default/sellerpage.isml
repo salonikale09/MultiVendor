@@ -1,0 +1,31 @@
+<isdecorate template="common/layout/page">
+<div class="container">
+    <h2>This are the categories available for the sellers</h2>
+        <div class="row border rounded">
+            <div class="col-6 border rounded">
+                <div class="row">
+                    <isloop items="${pdict.category}" var="category" status="loopstatus">
+                        <div class="col-4 pb-4">
+                                            ${category}
+                    
+                                        </div>
+                                    </isloop>
+                </div>
+            </div>
+            <div class="col-6 border rounded">
+                <div class="row">
+                    <isloop items="${pdict.category2}" var="category" status="loopstatus">
+                        <div class="col-4 pb-4">
+                                            ${category}
+                    
+                                        </div>
+                                    </isloop>
+                </div>
+            </div>
+        </div>
+        <a href="https://bjxc-002.sandbox.us01.dx.commercecloud.salesforce.com/on/demandware.store/Sites-vendor-registraion-Site/default/Login-Show" ><button class="btn btn-primary"> Proceed</button></a>
+    <br>
+</div>
+
+
+</isdecorate>

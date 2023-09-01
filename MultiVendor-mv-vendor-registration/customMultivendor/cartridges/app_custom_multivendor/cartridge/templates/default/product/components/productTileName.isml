@@ -1,0 +1,7 @@
+<div class="pdp-link">
+<isif condition="${product.FirmName}">
+    <p>${product.FirmName}</p>
+<iselse/>  
+</isif>
+    <a class="link" href="${pdict.urls.product}">${product.productName}</a>
+</div>

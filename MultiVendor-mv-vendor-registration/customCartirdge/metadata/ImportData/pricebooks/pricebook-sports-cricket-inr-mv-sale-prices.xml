@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pricebooks xmlns="http://www.demandware.com/xml/impex/pricebook/2006-10-31">
+    <pricebook>
+        <header pricebook-id="inr-mv-sports-cricket-sale-prices">
+            <currency>INR</currency>
+            <display-name xml:lang="x-default">Sale pricebook</display-name>
+            <online-flag>true</online-flag>
+            <parent>inr-mv-sports-cricket-list-prices</parent>
+        </header>
+        <!-- Sports Cricket mv pricebook -->
+        <price-tables>
+            <price-table product-id="sports-cricket-001">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-002">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-003">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-004">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-005">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-006">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-007">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-008">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-009">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-010">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-011">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-012">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-013">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-014">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-015">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-016">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-017">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-018">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-019">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-020">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-021">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-022">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-023">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-024">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-025">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-026">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-027">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-028">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-029">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+            <price-table product-id="sports-cricket-030">
+                <amount quantity="1">12,270.39</amount>
+            </price-table>
+        </price-tables>
+    </pricebook>
+</pricebooks>

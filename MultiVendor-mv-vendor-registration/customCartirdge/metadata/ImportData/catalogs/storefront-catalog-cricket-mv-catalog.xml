@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://www.demandware.com/xml/impex/catalog/2006-10-31" catalog-id="storefront-catalog-mv">
+	<category category-id="cricket">
+		<display-name xml:lang="x-default">Cricket</display-name>
+		<display-name xml:lang="fr-FR">Femme</display-name>
+		<display-name xml:lang="it-IT">Donna</display-name>
+		<display-name xml:lang="ja-JP">レディース</display-name>
+		<display-name xml:lang="zh-CN">女士</display-name>
+		<online-flag>true</online-flag>
+		<parent>root</parent>
+		<position>10.0</position>
+		<page-attributes>
+			<page-title xml:lang="x-default">cricket</page-title>
+			<page-title xml:lang="fr-FR">cricket</page-title>
+			<page-description xml:lang="x-default">cricket</page-description>
+			<page-description xml:lang="fr-FR">crocket</page-description>
+			<page-keywords xml:lang="x-default">cricket</page-keywords>
+			<page-keywords xml:lang="fr-FR">cricket</page-keywords>
+		</page-attributes>
+		<custom-attributes>
+			<custom-attribute attribute-id="enableCompare">true</custom-attribute>
+			<custom-attribute attribute-id="showInMenu">true</custom-attribute>
+			<custom-attribute attribute-id="slotBannerImage">images/slot/landing/cat-landing-slotbanner-womens.jpg</custom-attribute>
+		</custom-attributes>
+		<refinement-definitions>
+			<blocked-refinement-definition type="attribute" attribute-id="brand" system="true"/>
+		</refinement-definitions>
+	</category>
+	<category category-id="Badminton">
+		<display-name xml:lang="x-default">Badminton</display-name>
+		<display-name xml:lang="fr-FR">Badminton</display-name>
+		<display-name xml:lang="it-IT">Donna</display-name>
+		<display-name xml:lang="ja-JP">レディース</display-name>
+		<display-name xml:lang="zh-CN">女士</display-name>
+		<online-flag>true</online-flag>
+		<parent>root</parent>
+		<position>10.0</position>
+		<page-attributes>
+			<page-title xml:lang="x-default">Badminton</page-title>
+			<page-title xml:lang="fr-FR">Badminton</page-title>
+			<page-description xml:lang="x-default">Badminton</page-description>
+			<page-description xml:lang="fr-FR">Badminton</page-description>
+			<page-keywords xml:lang="x-default">Badminton</page-keywords>
+			<page-keywords xml:lang="fr-FR">Badminton</page-keywords>
+		</page-attributes>
+		<custom-attributes>
+			<custom-attribute attribute-id="enableCompare">true</custom-attribute>
+			<custom-attribute attribute-id="showInMenu">true</custom-attribute>
+			<custom-attribute attribute-id="slotBannerImage">images/slot/landing/cat-landing-slotbanner-womens.jpg</custom-attribute>
+		</custom-attributes>
+		<refinement-definitions>
+			<blocked-refinement-definition type="attribute" attribute-id="brand" system="true"/>
+		</refinement-definitions>
+	</category>
+	<category category-id="Mobile">
+		<display-name xml:lang="x-default">Mobile</display-name>
+		<display-name xml:lang="fr-FR">Mobile</display-name>
+		<display-name xml:lang="it-IT">Donna</display-name>
+		<display-name xml:lang="ja-JP">レディース</display-name>
+		<display-name xml:lang="zh-CN">女士</display-name>
+		<online-flag>true</online-flag>
+		<parent>root</parent>
+		<position>20.0</position>
+		<page-attributes>
+			<page-title xml:lang="x-default">Mobile</page-title>
+			<page-title xml:lang="fr-FR">Mobile</page-title>
+			<page-description xml:lang="x-default">Mobile</page-description>
+			<page-description xml:lang="fr-FR">Mobile</page-description>
+			<page-keywords xml:lang="x-default">Mobile</page-keywords>
+			<page-keywords xml:lang="fr-FR">Mobile</page-keywords>
+		</page-attributes>
+		<custom-attributes>
+			<custom-attribute attribute-id="enableCompare">true</custom-attribute>
+			<custom-attribute attribute-id="showInMenu">true</custom-attribute>
+			<custom-attribute attribute-id="slotBannerImage">images/slot/landing/cat-landing-slotbanner-womens.jpg</custom-attribute>
+		</custom-attributes>
+		<refinement-definitions>
+			<blocked-refinement-definition type="attribute" attribute-id="brand" system="true"/>
+		</refinement-definitions>
+	</category>
+    
+	<category-assignment category-id="Mobile" product-id="rs-mobile-001">
+		<primary-flag>true</primary-flag>
+	</category-assignment>
+	<category-assignment category-id="Mobile" product-id="rs-mobile-002">
+		<primary-flag>true</primary-flag>
+	</category-assignment>
+    <category-assignment category-id="cricket" product-id="sports-cricket-001">
+		<primary-flag>true</primary-flag>
+	</category-assignment>
+    <category-assignment category-id="cricket" product-id="sports-cricket-002">
+		<primary-flag>true</primary-flag>
+	</category-assignment>
+    <category-assignment category-id="cricket" product-id="sports-cricket-003">
+		<primary-flag>true</primary-flag>
+	</category-assignment>
+    <category-assignment category-id="cricket" product-id="sports-cricket-004">
+		<primary-flag>true</primary-flag>
+	</category-assignment>
+    <category-assignment category-id="cricket" product-id="sports-cricket-005">
+		<primary-flag>true</primary-flag>
+	</category-assignment>
+    <category-assignment category-id="cricket" product-id="sports-cricket-006">
+		<primary-flag>true</primary-flag>
+	</category-assignment>
+    <category-assignment category-id="cricket" product-id="sports-cricket-007">
+		<primary-flag>true</primary-flag>
+	</category-assignment>
+    <category-assignment category-id="cricket" product-id="sports-cricket-008">
+		<primary-flag>true</primary-flag>
+	</category-assignment>
+    <category-assignment category-id="cricket" product-id="sports-cricket-009">
+		<primary-flag>true</primary-flag>
+	</category-assignment>
+    <category-assignment category-id="cricket" product-id="sports-cricket-010">
+		<primary-flag>true</primary-flag>
+	</category-assignment>
+    <category-assignment category-id="Badminton" product-id="sports-Badminton-001">
+		<primary-flag>true</primary-flag>
+	</category-assignment>
+    <category-assignment category-id="Badminton" product-id="sports-Badminton-002">
+		<primary-flag>true</primary-flag>
+	</category-assignment>
+    <category-assignment category-id="Badminton" product-id="sports-Badminton-003">
+		<primary-flag>true</primary-flag>
+	</category-assignment>
+    <category-assignment category-id="Badminton" product-id="sports-Badminton-004">
+		<primary-flag>true</primary-flag>
+	</category-assignment>
+</catalog>

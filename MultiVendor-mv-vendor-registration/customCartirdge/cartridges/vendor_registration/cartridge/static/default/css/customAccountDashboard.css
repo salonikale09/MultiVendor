@@ -1,0 +1,21 @@
+.custom-profile-style-change {
+  border: 2px solid #4d1768; }
+
+.custom-head {
+  border-bottom: 2px solid #4d1768;
+  font-size: larger; }
+
+.custom-name-siz {
+  font-weight: bold;
+  font-family: serif !important; }
+
+.btn-position {
+  margin-top: 1%; }
+
+@media (max-width: 991.98px) {
+  .brand {
+    width: 14rem !important; } }
+
+@media (max-width: 550px) and (min-width: 230px) {
+  .brand img {
+    width: 331% !important; } }

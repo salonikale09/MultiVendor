@@ -1,0 +1,93 @@
+<isdecorate template="application/MenuFrame">
+        <isinclude template="common/header" sf-toolkit="on" />
+<table style="width:100%">
+<isif condition="${pdict.catalog == null}">
+  
+<iselse/>
+  <p align="right">
+  <button type="button" class="uploadAllFile btn btn-success" data-file="${pdict.result}" data-url= ${URLUtils.url("UploadWebDav-UploadAll")}>${Resource.msg('vendor.uploadFile', 'vendorList', null)}</button>
+  </p> 
+</isif>
+
+  <div class="container">
+    <p style="text-align:center !important">${Resource.msg('vendor.FileAvailable', 'vendorList', null)}</p>
+    <isif condition="${pdict.catalog != null}">
+    <isloop items="${pdict.catalog}" var="file">
+      <table class="table table-success">
+        <tr>
+          <th scope="col"> ${file.filename} </th>
+          <th scope="col"> <a href="${URLUtils.url("ProductData-singleFile")}"> <button type="button" class="viewFile btn btn-primary">View File</button></a></th>
+        </tr>
+      </table>
+
+    </isloop>
+    <iselse/>
+      <table class="table table-success">
+        <tr>
+          <th scope="col" style="text-align:center">${Resource.msg('vendor.noFileAvailable', 'vendorList', null)}</th>
+        </tr>
+      </table>
+    </isif>
+   
+
+<iscomment>     
+    <p style="text-align:center !important">INVENTORY</p>
+    <isif condition="${pdict.inventory != null}">
+     <isloop items="${pdict.inventory}" var="file">
+      <table class="table table-success">
+        <tr>
+          <th scope="col"> ${file.filename} </th>
+        </tr>  
+      </table>
+    </isloop>    
+    <iselse/>
+      <table class="table table-success">
+        <tr>
+          <th scope="col" style="text-align:center"> NOT AVAILABLE </th>
+        </tr>  
+      </table>      
+    </isif>
+   
+
+    
+    <p style="text-align:center !important">PRICEBOOK</p>
+    <isif condition="${pdict.priceook != null}">
+    <isloop items="${pdict.priceook}" var="file">
+      <table class="table table-success">
+        <tr>
+          <th scope="col"> ${file.filename} </th>
+        </tr>  
+      </table>
+    </isloop>     
+    <iselse/>
+      <table class="table table-success">
+        <tr>
+          <th scope="col" style="text-align:center"> NOT AVAILABLE </th>
+        </tr>  
+      </table>
+    </isif>
+  </div> </iscomment>
+
+  </table>
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">um</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      ddd
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">ldldld</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+        <isinclude template="common/footer" sf-toolkit="on" />
+</isdecorate>

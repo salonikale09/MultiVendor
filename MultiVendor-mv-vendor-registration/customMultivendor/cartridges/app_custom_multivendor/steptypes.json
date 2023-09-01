@@ -1,0 +1,72 @@
+{
+    "step-types":
+    {
+      "script-module-step":
+      [
+        {
+          "@type-id":"custom.CommissionOutput",
+          "@supports-parallel-execution":"true",
+          "@supports-site-context":"true",
+          "@supports-organization-context":"false",
+          "description":"Used to get the commission as per the vendor products sold",
+          "module":"app_custom_multivendor/cartridge/scripts/jobs/commission.js",
+          "function":"execute",
+          "transactional":"true",
+          "timeout-in-seconds":"900",
+          "parameters":
+          {
+          },
+          "status-codes":
+          {
+                    "status":
+            [
+                        {
+                            "@code": "ERROR",
+                            "description": "Used when the step failed with an error."
+                        },
+                        {
+                            "@code": "FINISHED",
+                "description": "Used when the step finished successfully."
+                        },
+                        {
+                            "@code": "FINISHED_WITH_WARNINGS",
+                "description": "Used when the step finished with warnings."
+                        }
+                    ]
+                }
+        },
+        {
+            "@type-id":"custom.CommissionOutputVendor",
+            "@supports-parallel-execution":"true",
+            "@supports-site-context":"true",
+            "@supports-organization-context":"false",
+            "description":"Used to get the commission as per the vendor products sold",
+            "module":"app_custom_multivendor/cartridge/scripts/jobs/commisionoutput.js",
+            "function":"execute",
+            "transactional":"true",
+            "timeout-in-seconds":"900",
+            "parameters":
+            {
+            },
+            "status-codes":
+            {
+                      "status":
+              [
+                          {
+                              "@code": "ERROR",
+                              "description": "Used when the step failed with an error."
+                          },
+                          {
+                              "@code": "FINISHED",
+                  "description": "Used when the step finished successfully."
+                          },
+                          {
+                              "@code": "FINISHED_WITH_WARNINGS",
+                  "description": "Used when the step finished with warnings."
+                          }
+                      ]
+                  }
+          }
+    ]
+}
+}

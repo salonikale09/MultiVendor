@@ -1,0 +1,15 @@
+<footer id="footercontent">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-sm-5 push-sm-7 push-lg-8 social">
+                <button class="back-to-top" title="${Resource.msg('button.back_to_top', 'common', null)}"
+                    aria-label="${Resource.msg('button.back_to_top', 'common', null)}">
+                    <span class="fa-stack fa-lg" aria-hidden="true">
+                        <i class="fa fa-circle fa-inverse fa-stack-2x"></i>
+                        <i class="fa fa-arrow-up fa-stack-1x"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+</footer>

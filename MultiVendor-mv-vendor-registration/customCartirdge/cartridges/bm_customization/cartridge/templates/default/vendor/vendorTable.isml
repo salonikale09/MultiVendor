@@ -1,0 +1,49 @@
+<isif condition="${pdict.customerData.length > 0}">
+    <div id="vendor-list">
+        <table class="table table-striped border">
+            <thead>
+                <tr>
+                    <th scope="col">${Resource.msg('vendor.list.vendor.name', 'vendorList', null)}</th>
+                    <th scope="col">${Resource.msg('vendor.list.vendor.designation', 'vendorList', null)}
+                    </th>
+                    <th scope="col">${Resource.msg('vendor.list.vendor.company.name', 'vendorList', null)}
+                    </th>
+                    <th scope="col">${Resource.msg('vendor.list.vendor.catalog', 'vendorList', null)}</th>
+                    <th scope="col">${Resource.msg('vendor.list.vendor.status', 'vendorList', null)}</th>
+                    <th scope="col">${Resource.msg('vendor.list.vendor.view', 'vendorList', null)}</th>
+                </tr>
+            </thead>
+            <tbody>
+                <isloop items="${pdict.customerData}" var="data" status="loopstatus">
+                    <tr>
+                        <th scope="row" class="pt-3">${data.name}</th>
+                        <th scope="row" class="pt-3">${data.designation}</th>
+                        <th scope="row" class="pt-3">${data.companyName}</th>
+                        <th scope="row" class="pt-3">${data.catalog}</th>
+                        <th scope="row">
+                            <isif condition="${data.status === null}">
+                                <button class="btn btn-info text-white text-center" style="width:130px"
+                                    type="">${Resource.msg('vendor.list.type.pending.vendor', 'vendorList', null)}</button>
+                            <iselse/>
+                                <isif condition="${data.status}">
+                                    <button class="btn btn-success text-center" style="width:130px"
+                                        type="">${Resource.msg('vendor.list.type.approve', 'vendorList', null)}</button>
+                                <iselse/>
+                                    <button class="btn btn-danger text-center" style="width:130px"
+                                        type="">${Resource.msg('vendor.list.type.not.approve', 'vendorList', null)}</button>
+                                </isif>
+                            </isif>
+                        </th>
+                        <th scope="row" class="pt-3">
+                            <a href="${URLUtils.url('Vendor-Details', 'id', data.id)}">
+                                <img class="" height="25" src="${URLUtils.staticURL('/image/eye.png')}" alt="" />
+                            </a>
+                        </th>
+                    </tr>
+                </isloop>
+            </tbody>
+        </table>
+    </div>
+<iselse/>
+    <p class="text-center pt-5 mt-5">${Resource.msg('vendor.list.empty.messsage', 'vendorList', null)}</p>
+</isif>

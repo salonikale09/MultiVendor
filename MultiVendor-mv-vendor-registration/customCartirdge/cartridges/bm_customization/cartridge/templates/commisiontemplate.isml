@@ -1,0 +1,160 @@
+<isdecorate template="application/MenuFrame">
+  <isinclude template="common/header" sf-toolkit="on" />
+<iscomment> <isdecorate template="common/layout/page"> </iscomment>
+
+  <div class="container">
+    <h2 style="font-family:fantasy;font-size:xxx-large;text-align:center">Generate invoice for selected vendor</h2>
+    <div class="row">
+      <div class="col-12">
+        <div>
+          <form action="${URLUtils.url('CommissionCalculation-getCommission')}" class="vendorcommision" method="GET">
+            <div class="form-group" style="text-align:center">
+              <input type="text" name="vendorname" value="">
+              <button type="submit" class="btn btn-primary mb-2">submit</button>
+            </div>
+          </form>
+          <isloop items="${pdict.commission}" var="commission" status="loopstatus">
+            <div bgcolor="#f6f6f6" style="color: #333; height: 100%; width: 100%;" height="100%" width="100%">
+              <table bgcolor="#f6f6f6" cellspacing="0" style="border-collapse: collapse; padding: 40px; width: 100%;"
+                width="100%">
+                <tbody>
+                  <tr>
+                    <td width="5px" style="padding: 0;"></td>
+                    <td style="clear: both; display: block; margin: 0 auto; max-width: 600px; padding: 10px 0;">
+
+                    </td>
+                    <td width="5px" style="padding: 0;"></td>
+                  </tr>
+
+                  <tr>
+                    <td width="5px" style="padding: 0;"></td>
+                    <td bgcolor="#FFFFFF"
+                      style="border: 1px solid #000; clear: both; display: block; margin: 0 auto; max-width: 600px; padding: 0;">
+                      <table width="100%"
+                        style="background: #f9f9f9; border-bottom: 1px solid #eee; border-collapse: collapse; color: #999;">
+                        <tbody>
+                         <tr>
+                            <td style="padding-left: 19px;color: #333; font-size: 16px;">Firm Name</td>
+                            <td style="padding-left: 19px;color: #333; font-size: 16px;">Vendor Name</td>
+                          </tr>
+                          <tr>
+                            <td style="padding-left: 2%;"><strong
+                                style="color: #333; font-size: 18px;">${pdict.customer} </strong></td>
+                            <td style="padding-left: 2%;"><strong
+                                style="color: #333; font-size: 18px;">${commission.customerData.firstName} ${commission.customerData.lastName} </strong></td>
+                            
+                            <td align="right" style="padding-right: 10px;"><span
+                                class="il">Codesquare Technologies</span></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                    <td style="padding: 0;"></td>
+                    <td width="5px" style="padding: 0;"></td>
+                  </tr>
+                  <tr>
+                    <td width="5px" style="padding: 0;"></td>
+                    <td
+                      style="border: 1px solid #000; border-top: 0; clear: both; display: block; margin: 0 auto; max-width: 600px; padding: 0;">
+                      <table cellspacing="0"
+                        style="border-collapse: collapse; border-left: 1px solid #000; margin: 0 auto; max-width: 600px;">
+                        <tbody>
+                          <tr>
+                            <td valign="top" style="padding: 20px;">
+                              <h3 style="
+                                            border-bottom: 1px solid #000;
+                                            color: #000;
+                                            font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+                                            font-size: 18px;
+                                            font-weight: bold;
+                                            line-height: 1.2;
+                                            margin: 0;
+                                            margin-bottom: 15px;
+                                            padding-bottom: 5px;
+                                        ">
+                                Summary
+                              </h3>
+                              <table cellspacing="0" style="border-collapse: collapse; margin-bottom: 40px;">
+                                <tbody>
+                                  <tr>
+                                    <td style="padding: 5px 0;">Total Sale of ${pdict.months}</td>
+                                    <td align="right" style="padding: 5px 0;">${commission.amount}</td>
+                                  </tr>
+                                   <tr>
+                                    <td style="padding: 5px 0;">Total Commission of ${pdict.months}</td>
+                                    <td align="right" style="padding: 5px 0;">${commission.commission}</td>
+                                  </tr>
+                                  <tr>
+                                    <td style="padding: 5px 0;">Total Paid till date</td>
+                                    <td align="right" style="padding: 5px 0;">${commission.customerData.custom.totalAmountPaid}</td>
+                                  </tr>
+                                   <tr>
+                                    <td style="padding: 5px 0;">Vendor's product total sale</td>
+                                    <td align="right" style="padding: 5px 0;">${commission.customerData.custom.totalSale}</td>
+                                  </tr>
+                                  <tr>
+                                    <td
+                                      style="border-bottom: 2px solid #000; border-top: 2px solid #000; font-weight: bold; padding: 5px 0;">
+                                      Amount to pay</td>
+                                    <td align="right"
+                                      style="border-bottom: 2px solid #000; border-top: 2px solid #000; font-weight: bold; padding: 5px 0;">
+                                      ${commission.amount - commission.commission}</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                    <td width="5px" style="padding: 0;"></td>
+                  </tr>
+
+                  <tr style="color: #666; font-size: 12px;">
+                    <td width="5px" style="padding: 10px 0;"></td>
+                    <td style="clear: both; display: block; margin: 0 auto; max-width: 600px; padding: 10px 0;">
+                      <table width="100%" cellspacing="0" style="border-collapse: collapse;">
+                        <tbody>
+                          <tr>
+                            <td width="10%" style="padding: 10px 56px;">&nbsp;</td>
+                            <td width="40%" valign="top" style="padding: 10px 0;">
+                              <h4 style="margin: 0;"><span class="il">Codesquare</span> Technologies</h4>
+                              <p style="color: #666; font-size: 12px; font-weight: normal; margin-bottom: 10px;">
+                                Princes Business Park, 6<sup>th</sup> Floor, Office Number 604
+                              </p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                    <td width="5px" style="padding: 10px 0;"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </isloop>
+          <br>
+          <div style="text-align: center;">
+            <a
+              href="${URLUtils.url('CommissionCalculation-paymentDone', 'customerNumber', pdict.commission[0].customerData.customerNo)}"><button
+                type="button" class="btn btn-light">Payment Done</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <iscomment>
+              <div style="text-align:center"> Vendor Name: ${commission.customerData.firstName}
+                ${commission.customerData.lastName}</div>
+              <div style="text-align:center"> Vendor Category : ${commission.customerData.custom.vendorProductCategory}
+              </div>
+              <div style="text-align:center"> Vendor Email: ${commission.customerData.email}</div>
+              <div style="text-align:center"> Vendor Firm Name : ${pdict.customer}</div>
+              <div style="text-align:center">Total Sale : ${commission.amount}</div>
+              <div style="text-align:center"> Our Commision: ${commission.commission}</div>
+            </iscomment>
+
+
+  <isinclude template="common/footer" sf-toolkit="on" /> 
+</isdecorate>

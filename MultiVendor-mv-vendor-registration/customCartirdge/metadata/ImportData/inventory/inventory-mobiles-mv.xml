@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventory xmlns="http://www.demandware.com/xml/impex/inventory/2007-05-31">
+	<inventory-list>
+		<header list-id="inventory_mv">
+			<default-instock>false</default-instock>
+			<description>Product Sku inventory</description>
+			<use-bundle-inventory-only>false</use-bundle-inventory-only>
+			<on-order>false</on-order>
+		</header>
+		<records>
+			<!-- sports-cricket inventory -->
+			<record product-id="rs-mobile-001">
+				<allocation>100</allocation>
+				<perpetual>false</perpetual>
+				<preorder-backorder-handling>none</preorder-backorder-handling>
+				<ats>100</ats>
+				<on-order>0</on-order>
+				<turnover>0</turnover>
+			</record>
+			<record product-id="rs-mobile-002">
+				<allocation>100</allocation>
+				<perpetual>false</perpetual>
+				<preorder-backorder-handling>none</preorder-backorder-handling>
+				<ats>100</ats>
+				<on-order>0</on-order>
+				<turnover>0</turnover>
+			</record>
+			</records>
+	</inventory-list>
+</inventory>

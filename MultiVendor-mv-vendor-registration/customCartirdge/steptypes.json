@@ -1,0 +1,76 @@
+{
+    "step-types":
+    {
+      "script-module-step":
+      [
+        {
+          "@type-id":"custom.deleteCustomerSelectedCategory",
+          "@supports-parallel-execution":"true",
+          "@supports-site-context":"true",
+          "@supports-organization-context":"false",
+          "description":"Help to send the information about the Customer",
+          "module":"vendor_registration/cartridge/scripts/job/deleteCustomerCategory.js",
+          "function":"execute",
+          "transactional":"false",
+          "timeout-in-seconds":"900",
+          "parameters":
+          {
+          },
+          "status-codes":
+          {
+                    "status":
+            [
+                        {
+                            "@code": "ERROR",
+                            "description": "Used when the step failed with an error."
+                        },
+                        {
+                            "@code": "FINISHED",
+                "description": "Used when the step finished successfully."
+                        },
+                        {
+                            "@code": "FINISHED_WITH_WARNINGS",
+                "description": "Used when the step finished with warnings."
+                        }
+                    ]
+                }
+        },
+        {
+            "@type-id":"custom.deleteCustomerSelectedCategory",
+            "@supports-parallel-execution":"false",
+            "@supports-site-context":"true",
+            "@supports-organization-context":"false",
+            "description":"My custom chunk script step type",
+            "module":"vendor_registration/cartridge/scripts/job/deleteCustomerCategory.js",
+            "before-step-function":"beforeStep",
+            "total-count-function":"getTotalCount",
+            "before-chunk-function":"beforeChunk",
+            "read-function":"read",
+            "process-function":"process",
+            "write-function":"write",
+            "after-chunk-function":"afterChunk",
+            "after-step-function":"afterStep",
+            "chunk-size":10,
+            "transactional":"true",
+            "parameters":
+            {
+  
+            },
+            "status-codes":
+            {
+                      "status":
+              [
+                          {
+                              "@code": "ERROR",
+                              "description": "Used when the step failed with an error."
+                          },
+                          {
+                              "@code": "OK",
+                  "description": "Used when the step finished successfully."
+                          }
+                      ]
+                  }
+          }
+      ]
+    }
+}

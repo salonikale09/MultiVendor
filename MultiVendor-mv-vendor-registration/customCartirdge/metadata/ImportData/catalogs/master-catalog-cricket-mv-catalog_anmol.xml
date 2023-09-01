@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <catalog xmlns="http://www.demandware.com/xml/impex/catalog/2006-10-31" catalog-id="sports-mv-catalog">
+        <header>
+            <image-settings>
+                <internal-location base-path="/images"/>
+                <view-types>
+                    <view-type>large</view-type>
+                    <view-type>medium</view-type>
+                    <view-type>small</view-type>
+                    <view-type>swatch</view-type>
+                    <view-type>hi-res</view-type>
+                </view-types>
+                <variation-attribute-id>color</variation-attribute-id>
+                <alt-pattern>${productname}, ${variationvalue}, ${viewtype}</alt-pattern>
+                <title-pattern>${productname}, ${variationvalue}</title-pattern>
+            </image-settings>
+        </header>
+        <category category-id="root">
+            <display-name xml:lang="x-default">Apparel Catalog</display-name>
+            <display-name xml:lang="fr-FR">Catalogue principal verstimentaire</display-name>
+            <display-name xml:lang="it-IT">Catalogo generale abbigliamento</display-name>
+            <display-name xml:lang="ja-JP">アパレルマスターカタログ</display-name>
+            <display-name xml:lang="zh-CN">服装主目录</display-name>
+            <online-flag>true</online-flag>
+            <template/>
+            <page-attributes/>
+
+            <attribute-groups>
+                <attribute-group group-id="clothingAttributes">
+                    <display-name xml:lang="x-default">Clothing Attributes</display-name>
+                    <display-name xml:lang="fr-FR">Attributs de vêtement</display-name>
+                    <display-name xml:lang="it-IT">Caratteristiche vestiario</display-name>
+                    <display-name xml:lang="ja-JP">衣料属性</display-name>
+                    <display-name xml:lang="zh-CN">服装属性</display-name>
+                    <attribute attribute-id="styleNumber" system="false"/>
+                </attribute-group>
+            </attribute-groups>
+        </category>
+
+        
+        <product product-id="rs-mobile-001">
+            <ean/>
+            <upc/>
+            <unit/>
+            <min-order-quantity>1</min-order-quantity>
+            <step-quantity>1</step-quantity>
+            <display-name xml:lang="x-default">I Phone 13 Pro </display-name>
+            <display-name xml:lang="fr-FR">I Phone 13 Pro </display-name>
+            <short-description xml:lang="x-default">Cricket Bat, Exclusive Cricket Bat for Adult Full Size with Full </short-description>
+            <short-description xml:lang="fr-FR">PLAYER TYPE: The SS English Willow Cricket Bat is suitable for adult players with intermediate skills. </short-description>
+
+            <long-description xml:lang="x-default">You'll love this updated easy care shirt in a roomy and breathable sleeveless body  You can layer it under suits and jackets for a formal and fitted look, or shed those layers for a more casual statement. </long-description>
+            <long-description xml:lang="fr-FR">Une version plus légère de notre chemise facile à entretenir, dans une matière très confortable  À porter sous un costume ou une veste pour une silhouette habillée et plus stricte, ou en mode épuré pour une allure plus décontractée. </long-description>
+          
+            <store-force-price-flag>false</store-force-price-flag>
+            <store-non-inventory-flag>false</store-non-inventory-flag>
+            <store-non-revenue-flag>false</store-non-revenue-flag>
+            <store-non-discountable-flag>false</store-non-discountable-flag>
+            <online-flag>true</online-flag>
+            <online-from>2011-04-13T04:00:00.000Z</online-from>
+            <available-flag>true</available-flag>
+            <searchable-flag>true</searchable-flag>
+            <images>
+                <image-group view-type="large">
+                    <image path="large/Iphone2.jpeg"/>
+                    <image path="large/Iphone2.jpeg"/>
+                </image-group>
+                <image-group view-type="large">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="large/Iphone2.jpeg"/>
+                    <image path="large/Iphone2.jpeg"/>
+                </image-group>
+                <image-group view-type="medium">
+                    <image path="medium/Iphone2.jpeg"/>
+                    <image path="medium/Iphone2.jpeg"/>
+                </image-group>
+                <image-group view-type="medium">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="medium/Iphone2.jpeg"/>
+                    <image path="medium/Iphone2.jpeg"/>
+                </image-group>
+                <image-group view-type="small">
+                    <image path="small/Iphone2.jpeg"/>
+                    <image path="small/Iphone2.jpeg"/>
+                </image-group>
+                <image-group view-type="small">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="small/Iphone2.jpeg"/>
+                    <image path="small/Iphone2.jpeg"/>
+                </image-group>
+                <image-group view-type="swatch">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="swatch/Iphone2.jpeg"/>
+                </image-group>
+            </images>
+            <tax-class-id>standard</tax-class-id>
+<manufacturer-name>RS Mobiles</manufacturer-name>
+            <sitemap-included-flag>true</sitemap-included-flag>
+            <sitemap-changefrequency>daily</sitemap-changefrequency>
+
+            <sitemap-priority>1.0</sitemap-priority>
+            <page-attributes>
+                <page-title xml:lang="x-default">I Phone 13 pro</page-title>
+                <page-title xml:lang="fr-FR">Chauve souris</page-title>
+                <page-description xml:lang="x-default">Smart Phone with Best security</page-description>
+                <page-description xml:lang="fr-FR">Get on Best Price! Boom</page-description>
+
+                <page-url xml:lang="x-default">bat</page-url>
+                <page-url xml:lang="fr-FR">chemisier-rayé-sans-manches-entretien-facile</page-url>
+
+            </page-attributes>
+                <custom-attributes>
+                    <custom-attribute attribute-id="FirmName">RS Mobiles</custom-attribute>
+                   
+                </custom-attributes>
+
+            <pinterest-enabled-flag>false</pinterest-enabled-flag>
+            <facebook-enabled-flag>false</facebook-enabled-flag>
+            <store-attributes>
+                <force-price-flag>false</force-price-flag>
+                <non-inventory-flag>false</non-inventory-flag>
+                <non-revenue-flag>false</non-revenue-flag>
+                <non-discountable-flag>false</non-discountable-flag>
+            </store-attributes>
+        </product>
+
+        <product product-id="rs-mobile-002">
+            <ean/>
+            <upc/>
+            <unit/>
+            <min-order-quantity>1</min-order-quantity>
+            <step-quantity>1</step-quantity>
+            <display-name xml:lang="x-default">I Phone 13 Pro </display-name>
+            <display-name xml:lang="fr-FR">I Phone 13 Pro </display-name>
+            <short-description xml:lang="x-default">Cricket Bat, Exclusive Cricket Bat for Adult Full Size with Full </short-description>
+            <short-description xml:lang="fr-FR">PLAYER TYPE: The SS English Willow Cricket Bat is suitable for adult players with intermediate skills. </short-description>
+
+            <long-description xml:lang="x-default">You'll love this updated easy care shirt in a roomy and breathable sleeveless body  You can layer it under suits and jackets for a formal and fitted look, or shed those layers for a more casual statement. </long-description>
+            <long-description xml:lang="fr-FR">Une version plus légère de notre chemise facile à entretenir, dans une matière très confortable  À porter sous un costume ou une veste pour une silhouette habillée et plus stricte, ou en mode épuré pour une allure plus décontractée. </long-description>
+  
+            <store-force-price-flag>false</store-force-price-flag>
+            <store-non-inventory-flag>false</store-non-inventory-flag>
+            <store-non-revenue-flag>false</store-non-revenue-flag>
+            <store-non-discountable-flag>false</store-non-discountable-flag>
+            <online-flag>true</online-flag>
+            <online-from>2011-04-13T04:00:00.000Z</online-from>
+            <available-flag>true</available-flag>
+            <searchable-flag>true</searchable-flag>
+            <images>
+                <image-group view-type="large">
+                    <image path="large/Iphone.jpeg"/>
+                    <image path="large/Iphone.jpeg"/>
+                </image-group>
+                <image-group view-type="large">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="large/Iphone.jpeg"/>
+                    <image path="large/Iphone.jpeg"/>
+                </image-group>
+                <image-group view-type="medium">
+                    <image path="medium/Iphone.jpeg"/>
+                    <image path="medium/Iphone.jpeg"/>
+                </image-group>
+                <image-group view-type="medium">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="medium/Iphone.jpeg"/>
+                    <image path="medium/Iphone.jpeg"/>
+                </image-group>
+                <image-group view-type="small">
+                    <image path="small/Iphone.jpeg"/>
+                    <image path="small/Iphone.jpeg"/>
+                </image-group>
+                <image-group view-type="small">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="small/Iphone.jpeg"/>
+                    <image path="small/Iphone.jpeg"/>
+                </image-group>
+                <image-group view-type="swatch">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="swatch/Iphone.jpeg"/>
+                </image-group>
+            </images>
+            <tax-class-id>standard</tax-class-id>
+<manufacturer-name>RS Mobiles</manufacturer-name>
+            <sitemap-included-flag>true</sitemap-included-flag>
+            <sitemap-changefrequency>daily</sitemap-changefrequency>
+
+            <sitemap-priority>1.0</sitemap-priority>
+            <page-attributes>
+                <page-title xml:lang="x-default">I Phone 13 pro</page-title>
+                <page-title xml:lang="fr-FR">Chauve souris</page-title>
+                <page-description xml:lang="x-default">Smart Phone with Best security</page-description>
+                <page-description xml:lang="fr-FR">Get on Best Price! Boom</page-description>
+
+                <page-url xml:lang="x-default">bat</page-url>
+                <page-url xml:lang="fr-FR">chemisier-rayé-sans-manches-entretien-facile</page-url>
+
+            </page-attributes>
+                <custom-attributes>
+                    <custom-attribute attribute-id="FirmName">RS Mobiles</custom-attribute>
+                 
+                </custom-attributes>
+
+            <pinterest-enabled-flag>false</pinterest-enabled-flag>
+            <facebook-enabled-flag>false</facebook-enabled-flag>
+            <store-attributes>
+                <force-price-flag>false</force-price-flag>
+                <non-inventory-flag>false</non-inventory-flag>
+                <non-revenue-flag>false</non-revenue-flag>
+                <non-discountable-flag>false</non-discountable-flag>
+            </store-attributes>
+        </product>
+
+        
+        <product product-id="sports-Badminton-001">
+            <ean/>
+            <upc/>
+            <unit/>
+            <min-order-quantity>1</min-order-quantity>
+            <step-quantity>1</step-quantity>
+            <display-name xml:lang="x-default">Yonex Badminton</display-name>
+            <display-name xml:lang="fr-FR">Chauve souris</display-name>
+            <short-description xml:lang="x-default">Cricket Bat, Exclusive Cricket Bat for Adult Full Size with Full </short-description>
+            <short-description xml:lang="fr-FR">PLAYER TYPE: The SS English Willow Cricket Bat is suitable for adult players with intermediate skills. </short-description>
+
+            <long-description xml:lang="x-default">You'll love this updated easy care shirt in a roomy and breathable sleeveless body  You can layer it under suits and jackets for a formal and fitted look, or shed those layers for a more casual statement. </long-description>
+            <long-description xml:lang="fr-FR">Une version plus légère de notre chemise facile à entretenir, dans une matière très confortable  À porter sous un costume ou une veste pour une silhouette habillée et plus stricte, ou en mode épuré pour une allure plus décontractée. </long-description>
+    
+            <store-force-price-flag>false</store-force-price-flag>
+            <store-non-inventory-flag>false</store-non-inventory-flag>
+            <store-non-revenue-flag>false</store-non-revenue-flag>
+            <store-non-discountable-flag>false</store-non-discountable-flag>
+            <online-flag>true</online-flag>
+            <online-from>2011-04-13T04:00:00.000Z</online-from>
+            <available-flag>true</available-flag>
+            <searchable-flag>true</searchable-flag>
+            <images>
+                <image-group view-type="large">
+                    <image path="large/badminton-1428046__480.jpg"/>
+                    <image path="large/badminton-1428046__480.jpg"/>
+                </image-group>
+                <image-group view-type="large">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="large/badminton-1428046__480.jpg"/>
+                    <image path="large/badminton-1428046__480.jpg"/>
+                </image-group>
+                <image-group view-type="medium">
+                    <image path="medium/badminton-1428046__480.jpg"/>
+                    <image path="medium/badminton-1428046__480.jpg"/>
+                </image-group>
+                <image-group view-type="medium">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="medium/badminton-1428046__480.jpg"/>
+                    <image path="medium/badminton-1428046__480.jpg"/>
+                </image-group>
+                <image-group view-type="small">
+                    <image path="small/badminton-1428046__480.jpg"/>
+                    <image path="small/badminton-1428046__480.jpg"/>
+                </image-group>
+                <image-group view-type="small">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="small/badminton-1428046__480.jpg"/>
+                    <image path="small/badminton-1428046__480.jpg"/>
+                </image-group>
+                <image-group view-type="swatch">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="swatch/badminton-1428046__480.jpg"/>
+                </image-group>
+            </images>
+            <tax-class-id>standard</tax-class-id>
+<manufacturer-name>UmeshFirm</manufacturer-name>
+            <sitemap-included-flag>true</sitemap-included-flag>
+            <sitemap-changefrequency>daily</sitemap-changefrequency>
+
+            <sitemap-priority>1.0</sitemap-priority>
+            <page-attributes>
+                <page-title xml:lang="x-default">Bat</page-title>
+                <page-title xml:lang="fr-FR">Chauve souris</page-title>
+                <page-description xml:lang="x-default">SS Kashmir Willow Leather Ball Cricket Bat, Exclusive Cricket Bat for Adult Full Size with Full Protection Cover (Super Power, Cannon, Impact) by Yogi Sports. </page-description>
+                <page-description xml:lang="fr-FR">Yogi Sports Batte de cricket SS Kashmir Willow en cuir avec balle de cricket exclusive pour adulte pleine grandeur avec housse de protection complète (Super Power, Cannon, Impact) </page-description>
+
+                <page-url xml:lang="x-default">bat</page-url>
+                <page-url xml:lang="fr-FR">chemisier-rayé-sans-manches-entretien-facile</page-url>
+
+            </page-attributes>
+              <custom-attributes>
+                    <custom-attribute attribute-id="FirmName">UmeshFirm</custom-attribute>
+                 
+                </custom-attributes>
+
+            <pinterest-enabled-flag>false</pinterest-enabled-flag>
+            <facebook-enabled-flag>false</facebook-enabled-flag>
+            <store-attributes>
+                <force-price-flag>false</force-price-flag>
+                <non-inventory-flag>false</non-inventory-flag>
+                <non-revenue-flag>false</non-revenue-flag>
+                <non-discountable-flag>false</non-discountable-flag>
+            </store-attributes>
+        </product>
+
+        <product product-id="sports-Badminton-002">
+            <ean/>
+            <upc/>
+            <unit/>
+            <min-order-quantity>1</min-order-quantity>
+            <step-quantity>1</step-quantity>
+            <display-name xml:lang="x-default">Yonex Badminton</display-name>
+            <display-name xml:lang="fr-FR">Chauve souris</display-name>
+            <short-description xml:lang="x-default">Cricket Bat, Exclusive Cricket Bat for Adult Full Size with Full </short-description>
+            <short-description xml:lang="fr-FR">PLAYER TYPE: The SS English Willow Cricket Bat is suitable for adult players with intermediate skills. </short-description>
+
+            <long-description xml:lang="x-default">You'll love this updated easy care shirt in a roomy and breathable sleeveless body  You can layer it under suits and jackets for a formal and fitted look, or shed those layers for a more casual statement. </long-description>
+            <long-description xml:lang="fr-FR">Une version plus légère de notre chemise facile à entretenir, dans une matière très confortable  À porter sous un costume ou une veste pour une silhouette habillée et plus stricte, ou en mode épuré pour une allure plus décontractée. </long-description>
+    
+
+            <store-force-price-flag>false</store-force-price-flag>
+            <store-non-inventory-flag>false</store-non-inventory-flag>
+            <store-non-revenue-flag>false</store-non-revenue-flag>
+            <store-non-discountable-flag>false</store-non-discountable-flag>
+            <online-flag>true</online-flag>
+            <online-from>2011-04-13T04:00:00.000Z</online-from>
+            <available-flag>true</available-flag>
+            <searchable-flag>true</searchable-flag>
+            <images>
+                <image-group view-type="large">
+                    <image path="large/badminton800.jpg"/>
+                    <image path="large/badminton800.jpg"/>
+                </image-group>
+                <image-group view-type="large">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="large/badminton800.jpg"/>
+                    <image path="large/badminton800.jpg"/>
+                </image-group>
+                <image-group view-type="medium">
+                    <image path="medium/badminton800.jpg"/>
+                    <image path="medium/badminton800.jpg"/>
+                </image-group>
+                <image-group view-type="medium">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="medium/badminton800.jpg"/>
+                    <image path="medium/badminton800.jpg"/>
+                </image-group>
+                <image-group view-type="small">
+                    <image path="small/badminton800.jpg"/>
+                    <image path="small/badminton800.jpg"/>
+                </image-group>
+                <image-group view-type="small">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="small/badminton800.jpg"/>
+                    <image path="small/badminton800.jpg"/>
+                </image-group>
+                <image-group view-type="swatch">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="swatch/badminton800.jpg"/>
+                </image-group>
+            </images>
+            <tax-class-id>standard</tax-class-id>
+            <manufacturer-name>UmeshFirm</manufacturer-name>
+            <sitemap-included-flag>true</sitemap-included-flag>
+            <sitemap-changefrequency>daily</sitemap-changefrequency>
+
+            <sitemap-priority>1.0</sitemap-priority>
+            <page-attributes>
+                <page-title xml:lang="x-default">Bat</page-title>
+                <page-title xml:lang="fr-FR">Chauve souris</page-title>
+                <page-description xml:lang="x-default">SS Kashmir Willow Leather Ball Cricket Bat, Exclusive Cricket Bat for Adult Full Size with Full Protection Cover (Super Power, Cannon, Impact) by Yogi Sports. </page-description>
+                <page-description xml:lang="fr-FR">Yogi Sports Batte de cricket SS Kashmir Willow en cuir avec balle de cricket exclusive pour adulte pleine grandeur avec housse de protection complète (Super Power, Cannon, Impact) </page-description>
+
+                <page-url xml:lang="x-default">bat</page-url>
+                <page-url xml:lang="fr-FR">chemisier-rayé-sans-manches-entretien-facile</page-url>
+
+            </page-attributes>
+           <custom-attributes>
+                    <custom-attribute attribute-id="FirmName">UmeshFirm</custom-attribute>
+                </custom-attributes>
+
+            <pinterest-enabled-flag>false</pinterest-enabled-flag>
+            <facebook-enabled-flag>false</facebook-enabled-flag>
+            <store-attributes>
+                <force-price-flag>false</force-price-flag>
+                <non-inventory-flag>false</non-inventory-flag>
+                <non-revenue-flag>false</non-revenue-flag>
+                <non-discountable-flag>false</non-discountable-flag>
+            </store-attributes>
+        </product>
+
+        <product product-id="sports-Badminton-003">
+            <ean/>
+            <upc/>
+            <unit/>
+            <min-order-quantity>1</min-order-quantity>
+            <step-quantity>1</step-quantity>
+            <display-name xml:lang="x-default">Yonex Badminton</display-name>
+            <display-name xml:lang="fr-FR">Chauve souris</display-name>
+            <short-description xml:lang="x-default">Cricket Bat, Exclusive Cricket Bat for Adult Full Size with Full </short-description>
+            <short-description xml:lang="fr-FR">PLAYER TYPE: The SS English Willow Cricket Bat is suitable for adult players with intermediate skills. </short-description>
+
+            <long-description xml:lang="x-default">You'll love this updated easy care shirt in a roomy and breathable sleeveless body  You can layer it under suits and jackets for a formal and fitted look, or shed those layers for a more casual statement. </long-description>
+            <long-description xml:lang="fr-FR">Une version plus légère de notre chemise facile à entretenir, dans une matière très confortable  À porter sous un costume ou une veste pour une silhouette habillée et plus stricte, ou en mode épuré pour une allure plus décontractée. </long-description>
+
+            <store-force-price-flag>false</store-force-price-flag>
+            <store-non-inventory-flag>false</store-non-inventory-flag>
+            <store-non-revenue-flag>false</store-non-revenue-flag>
+            <store-non-discountable-flag>false</store-non-discountable-flag>
+            <online-flag>true</online-flag>
+            <online-from>2011-04-13T04:00:00.000Z</online-from>
+            <available-flag>true</available-flag>
+            <searchable-flag>true</searchable-flag>
+            <images>
+                <image-group view-type="large">
+                    <image path="large/download.jpeg"/>
+                    <image path="large/download.jpeg"/>
+                </image-group>
+                <image-group view-type="large">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="large/download.jpeg"/>
+                    <image path="large/download.jpeg"/>
+                </image-group>
+                <image-group view-type="medium">
+                    <image path="medium/download.jpeg"/>
+                    <image path="medium/download.jpeg"/>
+                </image-group>
+                <image-group view-type="medium">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="medium/download.jpeg"/>
+                    <image path="medium/download.jpeg"/>
+                </image-group>
+                <image-group view-type="small">
+                    <image path="small/download.jpeg"/>
+                    <image path="small/download.jpeg"/>
+                </image-group>
+                <image-group view-type="small">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="small/download.jpeg"/>
+                    <image path="small/download.jpeg"/>
+                </image-group>
+                <image-group view-type="swatch">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="swatch/download.jpeg"/>
+                </image-group>
+            </images>
+            <tax-class-id>standard</tax-class-id>
+<manufacturer-name>UmeshFirm</manufacturer-name>
+            <sitemap-included-flag>true</sitemap-included-flag>
+            <sitemap-changefrequency>daily</sitemap-changefrequency>
+
+            <sitemap-priority>1.0</sitemap-priority>
+            <page-attributes>
+                <page-title xml:lang="x-default">Bat</page-title>
+                <page-title xml:lang="fr-FR">Chauve souris</page-title>
+                <page-description xml:lang="x-default">SS Kashmir Willow Leather Ball Cricket Bat, Exclusive Cricket Bat for Adult Full Size with Full Protection Cover (Super Power, Cannon, Impact) by Yogi Sports. </page-description>
+                <page-description xml:lang="fr-FR">Yogi Sports Batte de cricket SS Kashmir Willow en cuir avec balle de cricket exclusive pour adulte pleine grandeur avec housse de protection complète (Super Power, Cannon, Impact) </page-description>
+
+                <page-url xml:lang="x-default">bat</page-url>
+                <page-url xml:lang="fr-FR">chemisier-rayé-sans-manches-entretien-facile</page-url>
+
+            </page-attributes>
+<custom-attributes>
+                    <custom-attribute attribute-id="FirmName">UmeshFirm</custom-attribute>
+                                    </custom-attributes>
+            <pinterest-enabled-flag>false</pinterest-enabled-flag>
+            <facebook-enabled-flag>false</facebook-enabled-flag>
+            <store-attributes>
+                <force-price-flag>false</force-price-flag>
+                <non-inventory-flag>false</non-inventory-flag>
+                <non-revenue-flag>false</non-revenue-flag>
+                <non-discountable-flag>false</non-discountable-flag>
+            </store-attributes>
+        </product>
+
+        <product product-id="sports-Badminton-004">
+            <ean/>
+            <upc/>
+            <unit/>
+            <min-order-quantity>1</min-order-quantity>
+            <step-quantity>1</step-quantity>
+            <display-name xml:lang="x-default">Yonex Badminton</display-name>
+            <display-name xml:lang="fr-FR">Chauve souris</display-name>
+            <short-description xml:lang="x-default">Cricket Bat, Exclusive Cricket Bat for Adult Full Size with Full </short-description>
+            <short-description xml:lang="fr-FR">PLAYER TYPE: The SS English Willow Cricket Bat is suitable for adult players with intermediate skills. </short-description>
+
+            <long-description xml:lang="x-default">You'll love this updated easy care shirt in a roomy and breathable sleeveless body  You can layer it under suits and jackets for a formal and fitted look, or shed those layers for a more casual statement. </long-description>
+            <long-description xml:lang="fr-FR">Une version plus légère de notre chemise facile à entretenir, dans une matière très confortable  À porter sous un costume ou une veste pour une silhouette habillée et plus stricte, ou en mode épuré pour une allure plus décontractée. </long-description>
+    
+
+            <store-force-price-flag>false</store-force-price-flag>
+            <store-non-inventory-flag>false</store-non-inventory-flag>
+            <store-non-revenue-flag>false</store-non-revenue-flag>
+            <store-non-discountable-flag>false</store-non-discountable-flag>
+            <online-flag>true</online-flag>
+            <online-from>2011-04-13T04:00:00.000Z</online-from>
+            <available-flag>true</available-flag>
+            <searchable-flag>true</searchable-flag>
+            <images>
+                <image-group view-type="large">
+                    <image path="large/images.jpeg"/>
+                    <image path="large/images.jpeg"/>
+                </image-group>
+                <image-group view-type="large">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="large/images.jpeg"/>
+                    <image path="large/images.jpeg"/>
+                </image-group>
+                <image-group view-type="medium">
+                    <image path="medium/images.jpeg"/>
+                    <image path="medium/images.jpeg"/>
+                </image-group>
+                <image-group view-type="medium">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="medium/images.jpeg"/>
+                    <image path="medium/images.jpeg"/>
+                </image-group>
+                <image-group view-type="small">
+                    <image path="small/images.jpeg"/>
+                    <image path="small/images.jpeg"/>
+                </image-group>
+                <image-group view-type="small">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="small/images.jpeg"/>
+                    <image path="small/images.jpeg"/>
+                </image-group>
+                <image-group view-type="swatch">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="swatch/images.jpeg"/>
+                </image-group>
+            </images>
+            <tax-class-id>standard</tax-class-id>
+<manufacturer-name>UmeshFirm</manufacturer-name>
+            <sitemap-included-flag>true</sitemap-included-flag>
+            <sitemap-changefrequency>daily</sitemap-changefrequency>
+
+            <sitemap-priority>1.0</sitemap-priority>
+            <page-attributes>
+                <page-title xml:lang="x-default">Bat</page-title>
+                <page-title xml:lang="fr-FR">Chauve souris</page-title>
+                <page-description xml:lang="x-default">SS Kashmir Willow Leather Ball Cricket Bat, Exclusive Cricket Bat for Adult Full Size with Full Protection Cover (Super Power, Cannon, Impact) by Yogi Sports. </page-description>
+                <page-description xml:lang="fr-FR">Yogi Sports Batte de cricket SS Kashmir Willow en cuir avec balle de cricket exclusive pour adulte pleine grandeur avec housse de protection complète (Super Power, Cannon, Impact) </page-description>
+
+                <page-url xml:lang="x-default">bat</page-url>
+                <page-url xml:lang="fr-FR">chemisier-rayé-sans-manches-entretien-facile</page-url>
+
+            </page-attributes>
+<custom-attributes>
+                    <custom-attribute attribute-id="FirmName">UmeshFirm</custom-attribute>
+                                   </custom-attributes>
+            <pinterest-enabled-flag>false</pinterest-enabled-flag>
+            <facebook-enabled-flag>false</facebook-enabled-flag>
+            <store-attributes>
+                <force-price-flag>false</force-price-flag>
+                <non-inventory-flag>false</non-inventory-flag>
+                <non-revenue-flag>false</non-revenue-flag>
+                <non-discountable-flag>false</non-discountable-flag>
+            </store-attributes>
+        </product>
+        
+        <product product-id="sports-cricket-001">
+            <ean/>
+            <upc/>
+            <unit/>
+            <min-order-quantity>1</min-order-quantity>
+            <step-quantity>1</step-quantity>
+            <display-name xml:lang="x-default">kahmir willow Bat</display-name>
+            <display-name xml:lang="fr-FR">Chauve souris</display-name>
+            <short-description xml:lang="x-default">Cricket Bat, Exclusive Cricket Bat for Adult Full Size with Full </short-description>
+            <short-description xml:lang="fr-FR">PLAYER TYPE: The SS English Willow Cricket Bat is suitable for adult players with intermediate skills. </short-description>
+
+            <long-description xml:lang="x-default">You'll love this updated easy care shirt in a roomy and breathable sleeveless body  You can layer it under suits and jackets for a formal and fitted look, or shed those layers for a more casual statement. </long-description>
+            <long-description xml:lang="fr-FR">Une version plus légère de notre chemise facile à entretenir, dans une matière très confortable  À porter sous un costume ou une veste pour une silhouette habillée et plus stricte, ou en mode épuré pour une allure plus décontractée. </long-description>
+            
+            <store-force-price-flag>false</store-force-price-flag>
+            <store-non-inventory-flag>false</store-non-inventory-flag>
+            <store-non-revenue-flag>false</store-non-revenue-flag>
+            <store-non-discountable-flag>false</store-non-discountable-flag>
+            <online-flag>true</online-flag>
+            <online-from>2011-04-13T04:00:00.000Z</online-from>
+            <available-flag>true</available-flag>
+            <searchable-flag>true</searchable-flag>
+            <images>
+                <image-group view-type="large">
+                    <image path="large/SS_English_Willow.jpg"/>
+                    <image path="large/SS_English_Willow.jpg"/>
+                </image-group>
+                <image-group view-type="large">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="large/SS_English_Willow.jpg"/>
+                    <image path="large/SS_English_Willow.jpg"/>
+                </image-group>
+                <image-group view-type="medium">
+                    <image path="medium/SS_English_Willow.jpg"/>
+                    <image path="medium/SS_English_Willow.jpg"/>
+                </image-group>
+                <image-group view-type="medium">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="medium/SS_English_Willow.jpg"/>
+                    <image path="medium/SS_English_Willow.jpg"/>
+                </image-group>
+                <image-group view-type="small">
+                    <image path="small/SS_English_Willow.jpg"/>
+                    <image path="small/SS_English_Willow.jpg"/>
+                </image-group>
+                <image-group view-type="small">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="small/SS_English_Willow.jpg"/>
+                    <image path="small/SS_English_Willow.jpg"/>
+                </image-group>
+                <image-group view-type="swatch">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="swatch/SS_English_Willow.jpg"/>
+                </image-group>
+            </images>
+            <tax-class-id>standard</tax-class-id>
+<manufacturer-name>Anmol Sports</manufacturer-name>
+            <sitemap-included-flag>true</sitemap-included-flag>
+            <sitemap-changefrequency>daily</sitemap-changefrequency>
+
+            <sitemap-priority>1.0</sitemap-priority>
+            <page-attributes>
+                <page-title xml:lang="x-default">Bat</page-title>
+                <page-title xml:lang="fr-FR">Chauve souris</page-title>
+                <page-description xml:lang="x-default">SS Kashmir Willow Leather Ball Cricket Bat, Exclusive Cricket Bat for Adult Full Size with Full Protection Cover (Super Power, Cannon, Impact) by Yogi Sports. </page-description>
+                <page-description xml:lang="fr-FR">Yogi Sports Batte de cricket SS Kashmir Willow en cuir avec balle de cricket exclusive pour adulte pleine grandeur avec housse de protection complète (Super Power, Cannon, Impact) </page-description>
+
+                <page-url xml:lang="x-default">bat</page-url>
+                <page-url xml:lang="fr-FR">chemisier-rayé-sans-manches-entretien-facile</page-url>
+
+            </page-attributes>
+            <custom-attributes>
+                    <custom-attribute attribute-id="FirmName">Anmol Sports</custom-attribute>
+                   
+                </custom-attributes>
+
+            <pinterest-enabled-flag>false</pinterest-enabled-flag>
+            <facebook-enabled-flag>false</facebook-enabled-flag>
+            <store-attributes>
+                <force-price-flag>false</force-price-flag>
+                <non-inventory-flag>false</non-inventory-flag>
+                <non-revenue-flag>false</non-revenue-flag>
+                <non-discountable-flag>false</non-discountable-flag>
+            </store-attributes>
+        </product>
+    
+        <product product-id="sports-cricket-005">
+            <ean/>
+            <upc/>
+            <unit/>
+            <min-order-quantity>1</min-order-quantity>
+            <step-quantity>1</step-quantity>
+            <display-name xml:lang="x-default">Jaspo CRIC Addict Plastic Cricket Bat Set Combo with Soft Cricket Ball for Kids</display-name>
+            <display-name xml:lang="fr-FR">Chauve souris</display-name>
+            <short-description xml:lang="x-default">Perfect To Play Indoor  Outdoor Cricket: Jaspo CRIC addict cricket set is perfect choice for kids that can help to develop healthy habits. The cricket set size is perfect for little hands and convenient for the beginners kids to learn cricket.</short-description>
+            <short-description xml:lang="fr-FR">PLAYER TYPE: The SS Kashmir Willow Cricket Bat is suitable for adult players with intermediate skills. </short-description>
+
+            <long-description xml:lang="x-default">Complete Cricket Set For Kids: Jaspo Cricket set size comes in 3 or 5 durable heavy duty plastic not damage easily. Plastic cricket set is waterproof and can be used in dripping conditions as well. Heavy base of stumps and stable which allows you to play effectively. </long-description>
+            <long-description xml:lang="fr-FR">Une version plus légère de notre chemise facile à entretenir, dans une matière très confortable À porter sous un costume ou une veste pour une silhouette habillée et plus stricte, ou en mode épuré pour une allure plus décontractée. </long-description>
+            
+            <store-force-price-flag>false</store-force-price-flag>
+            <store-non-inventory-flag>false</store-non-inventory-flag>
+            <store-non-revenue-flag>false</store-non-revenue-flag>
+            <store-non-discountable-flag>false</store-non-discountable-flag>
+            <online-flag>true</online-flag>
+            <online-from>2011-04-13T04:00:00.000Z</online-from>
+            <available-flag>true</available-flag>
+            <searchable-flag>true</searchable-flag>
+            <images>
+                <image-group view-type="large">
+                    <image path="large/005_image_kids_bat.jpg"/>
+                    <image path="large/005_image_kids_bat.jpg"/>
+                </image-group>
+                <image-group view-type="large">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="large/005_image_kids_bat.jpg"/>
+                    <image path="large/005_image_kids_bat.jpg"/>
+                </image-group>
+                <image-group view-type="medium">
+                    <image path="medium/005_image_kids_bat.jpg"/>
+                    <image path="medium/005_image_kids_bat.jpg"/>
+                </image-group>
+                <image-group view-type="medium">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="medium/005_image_kids_bat.jpg"/>
+                    <image path="medium/005_image_kids_bat.jpg"/>
+                </image-group>
+                <image-group view-type="small">
+                    <image path="small/005_image_kids_bat.jpg"/>
+                    <image path="small/005_image_kids_bat.jpg"/>
+                </image-group>
+                <image-group view-type="small">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="small/005_image_kids_bat.jpg"/>
+                    <image path="small/005_image_kids_bat.jpg"/>
+                </image-group>
+                <image-group view-type="swatch">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="swatch/005_image_kids_bat.jpg"/>
+                </image-group>
+            </images>
+            <tax-class-id>standard</tax-class-id>
+<manufacturer-name>Anmol Sports</manufacturer-name>
+            <sitemap-included-flag>true</sitemap-included-flag>
+            <sitemap-changefrequency>daily</sitemap-changefrequency>
+            <sitemap-priority>1.0</sitemap-priority>
+            <page-attributes>
+                <page-title xml:lang="x-default">Bat</page-title>
+                <page-title xml:lang="fr-FR">Chauve souris</page-title>
+                <page-description xml:lang="x-default">SS Kashmir Willow Leather Ball Cricket Bat, Exclusive Cricket Bat for Adult Full Size with Full Protection Cover (Super Power, Cannon, Impact) by Yogi Sports. </page-description>
+                <page-description xml:lang="fr-FR">Yogi Sports Batte de cricket SS Kashmir Willow en cuir avec balle de cricket exclusive pour adulte pleine grandeur avec housse de protection complète (Super Power, Cannon, Impact) </page-description>
+
+                <page-url xml:lang="x-default">bat</page-url>
+                <page-url xml:lang="fr-FR">chemisier-rayé-sans-manches-entretien-facile</page-url>
+
+            </page-attributes>
+           <custom-attributes>
+                    <custom-attribute attribute-id="FirmName">Anmol Sports</custom-attribute>
+                   
+                </custom-attributes>
+
+            <pinterest-enabled-flag>false</pinterest-enabled-flag>
+            <facebook-enabled-flag>false</facebook-enabled-flag>
+            <store-attributes>
+                <force-price-flag>false</force-price-flag>
+                <non-inventory-flag>false</non-inventory-flag>
+                <non-revenue-flag>false</non-revenue-flag>
+                <non-discountable-flag>false</non-discountable-flag>
+            </store-attributes>
+        </product>
+        <product product-id="sports-cricket-006">
+            <ean/>
+            <upc/>
+            <unit/>
+            <min-order-quantity>1</min-order-quantity>
+            <step-quantity>1</step-quantity>
+            <display-name xml:lang="x-default">Klapp Popular Willow Cricket Kit With Three Ball, Four Wicket For Boys And Youth (Bat Size:3 Off White)</display-name>
+            <display-name xml:lang="fr-FR">Chauve souris</display-name>
+            <short-description xml:lang="x-default">Handle Type: Popular Handle</short-description>
+            <short-description xml:lang="fr-FR">PLAYER TYPE: The SS Kashmir Willow Cricket Bat is suitable for adult players with intermediate skills. </short-description>
+
+            <long-description xml:lang="x-default">Blade: Popular Willow With Cover Facing Fish Tape</long-description>
+            <long-description xml:lang="fr-FR">Une version plus légère de notre chemise facile à entretenir, dans une matière très confortable  À porter sous un costume ou une veste pour une silhouette habillée et plus stricte, ou en mode épuré pour une allure plus décontractée. </long-description>
+
+            
+            <store-force-price-flag>false</store-force-price-flag>
+            <store-non-inventory-flag>false</store-non-inventory-flag>
+            <store-non-revenue-flag>false</store-non-revenue-flag>
+            <store-non-discountable-flag>false</store-non-discountable-flag>
+            <online-flag>true</online-flag>
+            <online-from>2011-04-13T04:00:00.000Z</online-from>
+            <available-flag>true</available-flag>
+            <searchable-flag>true</searchable-flag>
+            <images>
+                <image-group view-type="large">
+                    <image path="large/41gFLVyhVDL._SY300_SX300_QL70_FMwebp_006.jpg"/>
+                    <image path="large/41gFLVyhVDL._SY300_SX300_QL70_FMwebp_006.jpg"/>
+                </image-group>
+                <image-group view-type="large">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="large/41gFLVyhVDL._SY300_SX300_QL70_FMwebp_006.jpg"/>
+                    <image path="large/41gFLVyhVDL._SY300_SX300_QL70_FMwebp_006.jpg"/>
+                </image-group>
+                <image-group view-type="medium">
+                    <image path="medium/41gFLVyhVDL._SY300_SX300_QL70_FMwebp_006.jpg"/>
+                    <image path="medium/41gFLVyhVDL._SY300_SX300_QL70_FMwebp_006.jpg"/>
+                </image-group>
+                <image-group view-type="medium">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="medium/41gFLVyhVDL._SY300_SX300_QL70_FMwebp_006.jpg"/>
+                    <image path="medium/41gFLVyhVDL._SY300_SX300_QL70_FMwebp_006.jpg"/>
+                </image-group>
+                <image-group view-type="small">
+                    <image path="small/41gFLVyhVDL._SY300_SX300_QL70_FMwebp_006.jpg"/>
+                    <image path="small/41gFLVyhVDL._SY300_SX300_QL70_FMwebp_006.jpg"/>
+                </image-group>
+                <image-group view-type="small">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="small/41gFLVyhVDL._SY300_SX300_QL70_FMwebp_006.jpg"/>
+                    <image path="small/41gFLVyhVDL._SY300_SX300_QL70_FMwebp_006.jpg"/>
+                </image-group>
+                <image-group view-type="swatch">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="swatch/41gFLVyhVDL._SY300_SX300_QL70_FMwebp_006.jpg"/>
+                </image-group>
+            </images>
+            <tax-class-id>standard</tax-class-id>
+<manufacturer-name>Anmol Sports</manufacturer-name>
+            <sitemap-included-flag>true</sitemap-included-flag>
+            <sitemap-changefrequency>daily</sitemap-changefrequency>
+            <sitemap-priority>1.0</sitemap-priority>
+            <page-attributes>
+                <page-title xml:lang="x-default">Bat</page-title>
+                <page-title xml:lang="fr-FR">Chauve souris</page-title>
+                <page-description xml:lang="x-default">SS Kashmir Willow Leather Ball Cricket Bat, Exclusive Cricket Bat for Adult Full Size with Full Protection Cover (Super Power, Cannon, Impact) by Yogi Sports. </page-description>
+                <page-description xml:lang="fr-FR">Yogi Sports Batte de cricket SS Kashmir Willow en cuir avec balle de cricket exclusive pour adulte pleine grandeur avec housse de protection complète (Super Power, Cannon, Impact) </page-description>
+
+                <page-url xml:lang="x-default">bat</page-url>
+                <page-url xml:lang="fr-FR">chemisier-rayé-sans-manches-entretien-facile</page-url>
+
+            </page-attributes>
+<custom-attributes>
+                    <custom-attribute attribute-id="FirmName">Anmol Sports</custom-attribute>
+                                  </custom-attributes>
+            <pinterest-enabled-flag>false</pinterest-enabled-flag>
+            <facebook-enabled-flag>false</facebook-enabled-flag>
+            <store-attributes>
+                <force-price-flag>false</force-price-flag>
+                <non-inventory-flag>false</non-inventory-flag>
+                <non-revenue-flag>false</non-revenue-flag>
+                <non-discountable-flag>false</non-discountable-flag>
+            </store-attributes>
+        </product>
+        <product product-id="sports-cricket-007">
+            <ean/>
+            <upc/>
+            <unit/>
+            <min-order-quantity>1</min-order-quantity>
+            <step-quantity>1</step-quantity>
+            <display-name xml:lang="x-default">PMG Popular Willow Cricket Bat with PVC Wicket Set  1 Tennis Ball for Kids, Boys, Girls, Men, Wood (Size 3 for 6-8 Years Kids)</display-name>
+            <display-name xml:lang="fr-FR">Chauve souris</display-name>
+            <short-description xml:lang="x-default">In The Box: 1 Wooden Bat , 1 Plastic Wicket Set ( 3Stand, 2 Bails, 1 Base), 1 Tennis Ball </short-description>
+            <short-description xml:lang="fr-FR">PLAYER TYPE: The SS Kashmir Willow Cricket Bat is suitable for adult players with intermediate skills. </short-description>
+
+            <long-description xml:lang="x-default">Age Group (6 to 8 Years old Kids)
+            Play with tennis ball
+            Gifting Combo
+            Made in India</long-description>
+            <long-description xml:lang="fr-FR">Une version plus légère de notre chemise facile à entretenir, dans une matière très confortable À porter sous un costume ou une veste pour une silhouette habillée et plus stricte, ou en mode épuré pour une allure plus décontractée. </long-description>
+
+            
+            <store-force-price-flag>false</store-force-price-flag>
+            <store-non-inventory-flag>false</store-non-inventory-flag>
+            <store-non-revenue-flag>false</store-non-revenue-flag>
+            <store-non-discountable-flag>false</store-non-discountable-flag>
+            <online-flag>true</online-flag>
+            <online-from>2011-04-13T04:00:00.000Z</online-from>
+            <available-flag>true</available-flag>
+            <searchable-flag>true</searchable-flag>
+            <images>
+                <image-group view-type="large">
+                    <image path="large/31E-AoNhc0L_007.jpg"/>
+                    <image path="large/31E-AoNhc0L_007.jpg"/>
+                </image-group>
+                <image-group view-type="large">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="large/31E-AoNhc0L_007.jpg"/>
+                    <image path="large/31E-AoNhc0L_007.jpg"/>
+                </image-group>
+                <image-group view-type="medium">
+                    <image path="medium/31E-AoNhc0L_007.jpg"/>
+                    <image path="medium/31E-AoNhc0L_007.jpg"/>
+                </image-group>
+                <image-group view-type="medium">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="medium/31E-AoNhc0L_007.jpg"/>
+                    <image path="medium/31E-AoNhc0L_007.jpg"/>
+                </image-group>
+                <image-group view-type="small">
+                    <image path="small/31E-AoNhc0L_007.jpg"/>
+                    <image path="small/31E-AoNhc0L_007.jpg"/>
+                </image-group>
+                <image-group view-type="small">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="small/31E-AoNhc0L_007.jpg"/>
+                    <image path="small/31E-AoNhc0L_007.jpg"/>
+                </image-group>
+                <image-group view-type="swatch">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="swatch/31E-AoNhc0L_007.jpg"/>
+                </image-group>
+            </images>
+            <tax-class-id>standard</tax-class-id>
+<manufacturer-name>Anmol Sports</manufacturer-name>
+            <sitemap-included-flag>true</sitemap-included-flag>
+            <sitemap-changefrequency>daily</sitemap-changefrequency>
+            <sitemap-priority>1.0</sitemap-priority>
+            <page-attributes>
+                <page-title xml:lang="x-default">Bat</page-title>
+                <page-title xml:lang="fr-FR">Chauve souris</page-title>
+                <page-description xml:lang="x-default">SS Kashmir Willow Leather Ball Cricket Bat, Exclusive Cricket Bat for Adult Full Size with Full Protection Cover (Super Power, Cannon, Impact) by Yogi Sports. </page-description>
+                <page-description xml:lang="fr-FR">Yogi Sports Batte de cricket SS Kashmir Willow en cuir avec balle de cricket exclusive pour adulte pleine grandeur avec housse de protection complète (Super Power, Cannon, Impact) </page-description>
+
+                <page-url xml:lang="x-default">bat</page-url>
+                <page-url xml:lang="fr-FR">chemisier-rayé-sans-manches-entretien-facile</page-url>
+
+            </page-attributes>
+<custom-attributes>
+                    <custom-attribute attribute-id="FirmName">Anmol Sports</custom-attribute>
+                                    </custom-attributes>
+            <pinterest-enabled-flag>false</pinterest-enabled-flag>
+            <facebook-enabled-flag>false</facebook-enabled-flag>
+            <store-attributes>
+                <force-price-flag>false</force-price-flag>
+                <non-inventory-flag>false</non-inventory-flag>
+                <non-revenue-flag>false</non-revenue-flag>
+                <non-discountable-flag>false</non-discountable-flag>
+            </store-attributes>
+        </product>
+        <product product-id="sports-cricket-008">
+            <ean/>
+            <upc/>
+            <unit/>
+            <min-order-quantity>1</min-order-quantity>
+            <step-quantity>1</step-quantity>
+            <display-name xml:lang="x-default">Klapp Practice Cricket Kit with 4 Wooden Wicket Set Cricket Set</display-name>
+            <display-name xml:lang="fr-FR">Chauve souris</display-name>
+            <short-description xml:lang="x-default">Cricket Kit for all age includes all the gear that you need for Play
+            Available in various sizes for different age group </short-description>
+            <short-description xml:lang="fr-FR">PLAYER TYPE: The SS Kashmir Willow Cricket Bat is suitable for adult players with intermediate skills. </short-description>
+
+            <long-description xml:lang="x-default">Batting gloves - palm made from cotton and PVC</long-description>
+            <long-description xml:lang="fr-FR">Une version plus légère de notre chemise facile à entretenir, dans une matière très confortable  À porter sous un costume ou une veste pour une silhouette habillée et plus stricte, ou en mode épuré pour une allure plus décontractée. </long-description>
+
+            
+            <store-force-price-flag>false</store-force-price-flag>
+            <store-non-inventory-flag>false</store-non-inventory-flag>
+            <store-non-revenue-flag>false</store-non-revenue-flag>
+            <store-non-discountable-flag>false</store-non-discountable-flag>
+            <online-flag>true</online-flag>
+            <online-from>2011-04-13T04:00:00.000Z</online-from>
+            <available-flag>true</available-flag>
+            <searchable-flag>true</searchable-flag>
+            <images>
+                <image-group view-type="large">
+                    <image path="large/61Ut4JtA8KL._SX569_008.jpg"/>
+                    <image path="large/61Ut4JtA8KL._SX569_008.jpg"/>
+                </image-group>
+                <image-group view-type="large">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="large/61Ut4JtA8KL._SX569_008.jpg"/>
+                    <image path="large/61Ut4JtA8KL._SX569_008.jpg"/>
+                </image-group>
+                <image-group view-type="medium">
+                    <image path="medium/61Ut4JtA8KL._SX569_008.jpg"/>
+                    <image path="medium/61Ut4JtA8KL._SX569_008.jpg"/>
+                </image-group>
+                <image-group view-type="medium">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="medium/61Ut4JtA8KL._SX569_008.jpg"/>
+                    <image path="medium/61Ut4JtA8KL._SX569_008.jpg"/>
+                </image-group>
+                <image-group view-type="small">
+                    <image path="small/61Ut4JtA8KL._SX569_008.jpg"/>
+                    <image path="small/61Ut4JtA8KL._SX569_008.jpg"/>
+                </image-group>
+                <image-group view-type="small">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="small/61Ut4JtA8KL._SX569_008.jpg"/>
+                    <image path="small/61Ut4JtA8KL._SX569_008.jpg"/>
+                </image-group>
+                <image-group view-type="swatch">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="swatch/61Ut4JtA8KL._SX569_008.jpg"/>
+                </image-group>
+            </images>
+            <tax-class-id>standard</tax-class-id>
+<manufacturer-name>Anmol Sports</manufacturer-name>
+            <sitemap-included-flag>true</sitemap-included-flag>
+            <sitemap-changefrequency>daily</sitemap-changefrequency>
+            <sitemap-priority>1.0</sitemap-priority>
+            <page-attributes>
+                <page-title xml:lang="x-default">Bat</page-title>
+                <page-title xml:lang="fr-FR">Chauve souris</page-title>
+                <page-description xml:lang="x-default">SS Kashmir Willow Leather Ball Cricket Bat, Exclusive Cricket Bat for Adult Full Size with Full Protection Cover (Super Power, Cannon, Impact) by Yogi Sports. </page-description>
+                <page-description xml:lang="fr-FR">Yogi Sports Batte de cricket SS Kashmir Willow en cuir avec balle de cricket exclusive pour adulte pleine grandeur avec housse de protection complète (Super Power, Cannon, Impact) </page-description>
+
+                <page-url xml:lang="x-default">bat</page-url>
+                <page-url xml:lang="fr-FR">chemisier-rayé-sans-manches-entretien-facile</page-url>
+
+            </page-attributes>
+<custom-attributes>
+                    <custom-attribute attribute-id="FirmName">Anmol Sports</custom-attribute>
+                                    </custom-attributes>
+            <pinterest-enabled-flag>false</pinterest-enabled-flag>
+            <facebook-enabled-flag>false</facebook-enabled-flag>
+            <store-attributes>
+                <force-price-flag>false</force-price-flag>
+                <non-inventory-flag>false</non-inventory-flag>
+                <non-revenue-flag>false</non-revenue-flag>
+                <non-discountable-flag>false</non-discountable-flag>
+            </store-attributes>
+        </product>
+        <product product-id="sports-cricket-009">
+            <ean/>
+            <upc/>
+            <unit/>
+            <min-order-quantity>1</min-order-quantity>
+            <step-quantity>1</step-quantity>
+            <display-name xml:lang="x-default">Thrifty Sports Cricket Side Arm Ball Thrower Fast Ball Thrower, Fast Ball Thrower Compatible with Leather Ball Tennis Ball Synthetic Ball Speed Upto 120+ Kmph (Multicolor) (Ball Thrower)</display-name>
+            <display-name xml:lang="fr-FR">Chauve souris</display-name>
+            <short-description xml:lang="x-default">Thrower is a practice tool that can be used by both Professional and Junior Cricketers. The Thrower can be used in full pitch and also half pitch. Due to its SHORT LENGTH, the sighting of the ball will be easier even when played from shorter distance. This product works better with New leather cricket balls. </short-description>
+            <short-description xml:lang="fr-FR">PLAYER TYPE: The SS Kashmir Willow Cricket Bat is suitable for adult players with intermediate skills. </short-description>
+
+            <long-description xml:lang="x-default">It generates speeds upto 110kmph. Ideally suitable for u 16 players. The size of the Thrower is short ensuing a natural trajectory along with control and accuracy. The Thrower is a one stop batting solution at an affordable price. A shoulder friendly hand held tool for a coach, parent and cricketers of all the levels. </long-description>
+            <long-description xml:lang="fr-FR">Une version plus légère de notre chemise facile à entretenir, dans une matière très confortable À porter sous un costume ou une veste pour une silhouette habillée et plus stricte, ou en mode épuré pour une allure plus décontractée. </long-description>
+
+            
+            <store-force-price-flag>false</store-force-price-flag>
+            <store-non-inventory-flag>false</store-non-inventory-flag>
+            <store-non-revenue-flag>false</store-non-revenue-flag>
+            <store-non-discountable-flag>false</store-non-discountable-flag>
+            <online-flag>true</online-flag>
+            <online-from>2011-04-13T04:00:00.000Z</online-from>
+            <available-flag>true</available-flag>
+            <searchable-flag>true</searchable-flag>
+            <images>
+                <image-group view-type="large">
+                    <image path="large/31tPpEpPQAL_009.jpg"/>
+                    <image path="large/31tPpEpPQAL_009.jpg"/>
+                </image-group>
+                <image-group view-type="large">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="large/31tPpEpPQAL_009.jpg"/>
+                    <image path="large/31tPpEpPQAL_009.jpg"/>
+                </image-group>
+                <image-group view-type="medium">
+                    <image path="medium/31tPpEpPQAL_009.jpg"/>
+                    <image path="medium/31tPpEpPQAL_009.jpg"/>
+                </image-group>
+                <image-group view-type="medium">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="medium/31tPpEpPQAL_009.jpg"/>
+                    <image path="medium/31tPpEpPQAL_009.jpg"/>
+                </image-group>
+                <image-group view-type="small">
+                    <image path="small/31tPpEpPQAL_009.jpg"/>
+                    <image path="small/31tPpEpPQAL_009.jpg"/>
+                </image-group>
+                <image-group view-type="small">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="small/31tPpEpPQAL_009.jpg"/>
+                    <image path="small/31tPpEpPQAL_009.jpg"/>
+                </image-group>
+                <image-group view-type="swatch">
+                    <variation attribute-id="color" value="JJ2DHXX"/>
+                    <image path="swatch/31tPpEpPQAL_009.jpg"/>
+                </image-group>
+            </images>
+            <tax-class-id>standard</tax-class-id>
+<manufacturer-name>Anmol Sports</manufacturer-name>
+            <sitemap-included-flag>true</sitemap-included-flag>
+            <sitemap-changefrequency>daily</sitemap-changefrequency>
+            <sitemap-priority>1.0</sitemap-priority>
+            <page-attributes>
+                <page-title xml:lang="x-default">Bat</page-title>
+                <page-title xml:lang="fr-FR">Chauve souris</page-title>
+                <page-description xml:lang="x-default">SS Kashmir Willow Leather Ball Cricket Bat, Exclusive Cricket Bat for Adult Full Size with Full Protection Cover (Super Power, Cannon, Impact) by Yogi Sports. </page-description>
+                <page-description xml:lang="fr-FR">Yogi Sports Batte de cricket SS Kashmir Willow en cuir avec balle de cricket exclusive pour adulte pleine grandeur avec housse de protection complète (Super Power, Cannon, Impact) </page-description>
+
+                <page-url xml:lang="x-default">bat</page-url>
+                <page-url xml:lang="fr-FR">chemisier-rayé-sans-manches-entretien-facile</page-url>
+
+            </page-attributes>
+<custom-attributes>
+                    <custom-attribute attribute-id="FirmName">Anmol Sports</custom-attribute>
+                                 </custom-attributes>
+            <pinterest-enabled-flag>false</pinterest-enabled-flag>
+            <facebook-enabled-flag>false</facebook-enabled-flag>
+            <store-attributes>
+                <force-price-flag>false</force-price-flag>
+                <non-inventory-flag>false</non-inventory-flag>
+                <non-revenue-flag>false</non-revenue-flag>
+                <non-discountable-flag>false</non-discountable-flag>
+            </store-attributes>
+        </product>
+    </catalog>
